@@ -211,6 +211,11 @@ gulp.task('user-fonts', function () {
     .pipe(gulp.dest(yeoman.dist + '/user-fonts'));
 });
 
+gulp.task('pdf', function () {
+  return gulp.src(yeoman.app + '/pdfs/*')
+    .pipe(gulp.dest(yeoman.dist + '/pdfs'));
+});
+
 gulp.task('images', function () {
   return gulp.src(yeoman.app + '/images/**/*')
     .pipe($.cache($.imagemin({
@@ -247,7 +252,7 @@ gulp.task('copy:favicon', function () {
 });
 
 gulp.task('build', ['clean:dist', 'bower'], function () {
-  runSequence(['images', 'csv', 'md', 'icons', 'copy:extras', 'user-fonts', 'copy:fonts', 'copy:favicon', 'client:build']);
+  runSequence(['images', 'csv', 'pdf','md', 'icons', 'copy:extras', 'user-fonts', 'copy:fonts', 'copy:favicon', 'client:build']);
 });
 
 gulp.task('default', ['build']);

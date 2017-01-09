@@ -5,11 +5,13 @@
 </div>
 
 <div class="row text-left">
-  <div class="thumbnail" ng-repeat="product in products | filter:productFilter">
-    <img src="images/{{product.image}}.png" alt="{{product.name}}">
-    <div class="caption text-center">
-      <p>{{product.name}}</p>
-      <p class="link" ng-click="productModal.open(product)">View</p>
+  <div class="col-xs-3" ng-repeat="product in products | filter:productFilter">
+    <div class="thumbnail">
+      <img src="images/products/{{product.image}}" alt="{{product.name}}">
+      <div class="caption text-center">
+        <p>{{product.name}}</p>
+        <p class="link" ng-click="productModal.open(product)">View</p>
+      </div>
     </div>
   </div>
 </div>

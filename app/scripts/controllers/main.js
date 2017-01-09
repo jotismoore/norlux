@@ -30,7 +30,7 @@ angular.module('norluxAngularApp')
 
     $scope.productModal = new ViewProductModel();
 
-    $scope.productFilter = 'LED Spotlights';
+    $scope.productFilter = 'LED Ceiling';
 
     $scope.filterCategory = function(category) {
       if ($scope.productFilter != category) {
@@ -55,7 +55,7 @@ angular.module('norluxAngularApp')
     ];
 
     $scope.caseStudiesFiles = function(imageName) {
-      const folder = imageName.substring(0, imageName.lastIndexOf('_'));
+      var folder = imageName.substring(0, imageName.lastIndexOf('_'));
       return 'images/case_studies/' + folder + '/' + imageName;
     };
 

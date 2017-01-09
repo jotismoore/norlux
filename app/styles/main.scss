@@ -1,19 +1,20 @@
 // bower:scss
 // endbower
 
+//../user-fonts
 @font-face {
   font-family: 'interstateregular';
-  src: url('../user-fonts/interstate-regular-webfont.woff2') format('woff2'),
-  url('../user-fonts/interstate-regular-webfont.woff') format('woff');
+  src: url('../fonts/interstate-regular-webfont.woff2') format('woff2'),
+  url('../fonts/interstate-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
+
 
 @font-face {
   font-family: 'interstatelight';
-  src: url('../user-fonts/interstate_light-webfont.woff2') format('woff2'),
-  url('../user-fonts/interstate_light-webfont.woff') format('woff');
+  src: url('../fonts/interstate_light-webfont.woff2') format('woff2'),
+  url('../fonts/interstate_light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -21,8 +22,8 @@
 
 @font-face {
   font-family: 'interstatebold';
-  src: url('../user-fonts/interstate_bold-webfont.woff2') format('woff2'),
-  url('../user-fonts/interstate_bold-webfont.woff') format('woff');
+  src: url('../fonts/interstate_bold-webfont.woff2') format('woff2'),
+  url('../fonts/interstate_bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -250,23 +251,39 @@ body {
   h1 {
     padding: 20px;
   }
+  [class*="col-"] {
+    padding: 0 5px;
+  }
   .thumbnail {
-    width: 257.5px;
-    height: 330px;
     vertical-align: top;
     border: 5px solid rgba(0, 0, 0, .08);
     border-radius: inherit;
-    display: inline-block;
-    margin: 15px;
+    height: 350px;
+    position: relative;
+    padding: 0;
+    .caption {
+      position: relative;
+      p {
+        position: absolute;
+        margin: 0px auto;
+        width: 100%;
+        left: 0;
+        padding: 0 9px;
+      }
+      p:first-child {
+        top: 20px;
+      }
+      p:last-child {
+        bottom: -110px;
+      }
+    }
+    img {
+      width: auto;
+      height: 200px;
+    }
     .link {
       color: #009fe3;
       cursor: pointer;
-    }
-    &:first-child {
-      margin-left: 0;
-    }
-    &:last-child {
-      margin-right: 0;
     }
   }
   p a.categories {
@@ -321,10 +338,13 @@ body {
   min-width: 200px !important;
   font-size: 18px !important;
   font-family: 'interstatebold', Arial, Serif !important;
+  text-transform: none !important;
+  font-weight: normal !important;
   &.blackout {
     background-color: black !important;
     color: white !important;
     padding: 8px 80px !important;
+    margin: 20px 0;
   }
 }
 

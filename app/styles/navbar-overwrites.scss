@@ -93,10 +93,6 @@
 }
 
 #productModal.fullscreen {
-  .container {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
   hr {
     width: 30%;
     margin-top: 0;
@@ -105,33 +101,32 @@
   .modal-header {
     border: 0;
   }
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .product-info {
     text-align: left;
   }
-  .close {
-    margin: -11px -130px;
+
+  .modal-body {
+    img {
+      max-height: 400px;
+    }
   }
 }
 
 #searchModal.fullscreen {
-  .container {
-    text-align: left;
-    input {
-      font-size: 142px;
-      font-family: 'interstatebold', Arial, Serif;
-      color: #000;
-      font-weight: 700;
-      width: 100%;
-    }
-    .results {
-      text-align: center;
-      .thumbnail {
-        margin-left: 0;
-      }
-    }
-    .close {
-      margin: -45px -95px;
-    }
+  text-align: left;
+  input {
+    font-size: 142px;
+    font-family: 'interstatebold', Arial, Serif;
+    color: #000;
+    font-weight: 700;
+    width: 100%;
+  }
+  .results {
+    margin-top: 20px;
   }
 }
 

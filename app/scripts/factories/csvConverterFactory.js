@@ -23,7 +23,7 @@ function CSVToArray(e, r) {
 
 angular.module('norluxAngularApp')
   .factory('Products', ['$http', function($http){
-    var Url   = "csv/test.csv";
+    var Url   = "csv/products.csv";
     var Products = $http.get(Url).then(function(response){
       return CSVToArray(response.data);
     });

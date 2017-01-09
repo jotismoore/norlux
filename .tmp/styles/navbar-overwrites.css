@@ -100,11 +100,6 @@
   text-decoration: none;
 }
 
-#productModal.fullscreen .container {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 #productModal.fullscreen hr {
   width: 30%;
   margin-top: 0;
@@ -115,19 +110,24 @@
   border: 0;
 }
 
+#productModal.fullscreen .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 #productModal.fullscreen .product-info {
   text-align: left;
 }
 
-#productModal.fullscreen .close {
-  margin: -11px -130px;
+#productModal.fullscreen .modal-body img {
+  max-height: 400px;
 }
 
-#searchModal.fullscreen .container {
+#searchModal.fullscreen {
   text-align: left;
 }
 
-#searchModal.fullscreen .container input {
+#searchModal.fullscreen input {
   font-size: 142px;
   font-family: 'interstatebold', Arial, Serif;
   color: #000;
@@ -135,16 +135,8 @@
   width: 100%;
 }
 
-#searchModal.fullscreen .container .results {
-  text-align: center;
-}
-
-#searchModal.fullscreen .container .results .thumbnail {
-  margin-left: 0;
-}
-
-#searchModal.fullscreen .container .close {
-  margin: -45px -95px;
+#searchModal.fullscreen .results {
+  margin-top: 20px;
 }
 
 #aboutNorlux.fullscreen {

@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'interstateregular';
-  src: url("../user-fonts/interstate-regular-webfont.woff2") format("woff2"), url("../user-fonts/interstate-regular-webfont.woff") format("woff");
+  src: url("../fonts/interstate-regular-webfont.woff2") format("woff2"), url("../fonts/interstate-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'interstatelight';
-  src: url("../user-fonts/interstate_light-webfont.woff2") format("woff2"), url("../user-fonts/interstate_light-webfont.woff") format("woff");
+  src: url("../fonts/interstate_light-webfont.woff2") format("woff2"), url("../fonts/interstate_light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'interstatebold';
-  src: url("../user-fonts/interstate_bold-webfont.woff2") format("woff2"), url("../user-fonts/interstate_bold-webfont.woff") format("woff");
+  src: url("../fonts/interstate_bold-webfont.woff2") format("woff2"), url("../fonts/interstate_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -263,27 +263,47 @@ body h4 {
   padding: 20px;
 }
 
+.products-container [class*="col-"], #searchModal [class*="col-"] {
+  padding: 0 5px;
+}
+
 .products-container .thumbnail, #searchModal .thumbnail {
-  width: 257.5px;
-  height: 330px;
   vertical-align: top;
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: inherit;
-  display: inline-block;
-  margin: 15px;
+  height: 350px;
+  position: relative;
+  padding: 0;
+}
+
+.products-container .thumbnail .caption, #searchModal .thumbnail .caption {
+  position: relative;
+}
+
+.products-container .thumbnail .caption p, #searchModal .thumbnail .caption p {
+  position: absolute;
+  margin: 0px auto;
+  width: 100%;
+  left: 0;
+  padding: 0 9px;
+}
+
+.products-container .thumbnail .caption p:first-child, #searchModal .thumbnail .caption p:first-child {
+  top: 20px;
+}
+
+.products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child {
+  bottom: -110px;
+}
+
+.products-container .thumbnail img, #searchModal .thumbnail img {
+  width: auto;
+  height: 200px;
 }
 
 .products-container .thumbnail .link, #searchModal .thumbnail .link {
   color: #009fe3;
   cursor: pointer;
-}
-
-.products-container .thumbnail:first-child, #searchModal .thumbnail:first-child {
-  margin-left: 0;
-}
-
-.products-container .thumbnail:last-child, #searchModal .thumbnail:last-child {
-  margin-right: 0;
 }
 
 .products-container p a.categories, #searchModal p a.categories {
@@ -342,12 +362,15 @@ body h4 {
   min-width: 200px !important;
   font-size: 18px !important;
   font-family: 'interstatebold', Arial, Serif !important;
+  text-transform: none !important;
+  font-weight: normal !important;
 }
 
 .norlux-button.blackout {
   background-color: black !important;
   color: white !important;
   padding: 8px 80px !important;
+  margin: 20px 0;
 }
 
 .contact-container .container {

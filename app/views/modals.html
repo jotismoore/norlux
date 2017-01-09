@@ -26,28 +26,28 @@
 <div class="modal fade fullscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="container">
-        <div class="modal-header" style="border:0;">
-          <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
-            <span class="crisscross"></span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="row">
+      <div class="modal-header" style="border:0;">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+          <span class="crisscross"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row text-left">
             <div class="col-md-12">
               <p>Type to search...</p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <input class="search-big" type="text" ng-model="search.name" value="Search" placeholder="spot light">
+              <input class="search-big" type="text" ng-model="search.name" value="Search" placeholder="search">
             </div>
           </div>
-          <div class="row results">
-            <div class="col-md-12">
-              <div class="thumbnail col-xs-3 no-padding" ng-repeat="product in (search ? (products | filter:search) : [])">
-                <img src="images/{{product.image}}.png" alt="{{product.name}}">
-                <div class="caption">
+          <div class="row text-left results">
+            <div class="col-xs-3" ng-repeat="product in (search ? (products | filter:search) : [])">
+              <div class="thumbnail">
+                <img src="images/products/{{product.image}}" alt="{{product.name}}">
+                <div class="caption text-center">
                   <p>{{product.name}}</p>
                   <p class="link" ng-click="productModal.open(product)">View</p>
                 </div>
