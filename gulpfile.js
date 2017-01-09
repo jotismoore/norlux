@@ -251,6 +251,10 @@ gulp.task('copy:favicon', function () {
     .pipe(gulp.dest(yeoman.dist));
 });
 
+gulp.task('clear', function (done) {
+  return $.cache.clearAll(done);
+});
+
 gulp.task('build', ['clean:dist', 'bower'], function () {
   runSequence(['images', 'csv', 'pdf','md', 'icons', 'copy:extras', 'user-fonts', 'copy:fonts', 'copy:favicon', 'client:build']);
 });
