@@ -1,0 +1,120 @@
+<div id="productModal" class="modal fade fullscreen" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="container">
+        <div class="modal-header">
+          <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+            <span class="crisscross"></span>
+          </button>
+          <h1 class="modal-title">{{model.product.name}}</h1>
+          <hr />
+        </div>
+        <div class="model-description">
+          <h2>{{model.product.description}}</h2>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-6">
+              <img src="images/{{model.product.image}}.png" width="400px" />
+            </div>
+            <div class="col-xs-6 product-info">
+                <p>Product Information</p>
+                <table>
+                  <tr>
+                    <td>
+                      Product
+                    </td>
+                    <td>
+                      {{model.product.product}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Light Efficiency
+                    </td>
+                    <td>
+                      {{model.product.efficiency}}
+                    </td>
+                  </tr>
+                  <tr>
+                  <td>
+                    Actual Lumen Output
+                  </td>
+                  <td>
+                    {{model.product.lumen_output}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    CRI
+                  </td>
+                  <td>
+                    {{model.product.cri}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Colour Temperature
+                  </td>
+                  <td>
+                    {{model.product.temp}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Step
+                  </td>
+                  <td>
+                    {{model.product.step}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Actual Power
+                  </td>
+                  <td>
+                    {{model.product.act_power}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Power Factor
+                  </td>
+                  <td>
+                    {{model.product.power_fact}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Brand
+                  </td>
+                  <td>
+                    {{model.product.brand}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Beam Angle
+                  </td>
+                  <td>
+                    {{model.product.beam_angle}}
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button class="norlux-button blackout">Enquire</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button class="norlux-button">Technical Specification</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

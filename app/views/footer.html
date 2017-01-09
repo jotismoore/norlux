@@ -1,0 +1,47 @@
+<div class="store-locations">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-5">
+        <div class="store-title">Our Locations:</div>
+      </div>
+      <div class="col-xs-7">
+        <div class="row">
+          <div class="panel-group col-xs-6">
+            <div class="panel panel-default" ng-repeat="group in stores | groupBy: 'country' | toArray: true | orderBy : ordering">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-target="#{{group.$key}}">
+                    <div class="row">
+                      <div class="col-xs-10">
+                        {{group.$key}}
+                      </div>
+                      <div class="col-xs-2">
+                        <span>+</span>
+                      </div>
+                    </div>
+                  </a>
+                </h4>
+              </div>
+              <div id="{{group.$key}}" class="panel-collapse collapse">
+                <div class="panel-body" ng-repeat="store in group">
+                  <span class="name">{{store.name}}</span><br>
+                  <span class="email">E-mail: {{store.email}}</span><br>
+                  <span class="phone">Phone: {{store.phone}}</span><br>
+                  {{store.address_line_1}}<br>
+                  {{store.address_line_2}}<br>
+                  {{store.city}} {{store.postcode}}<br>
+                  {{store.region}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <p><span class="glyphicon"></span>Norlux UK | Phone +44 (0)207 XXX XXXX | info@norlux.uk</p>
+</div>
+
+

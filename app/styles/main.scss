@@ -1,0 +1,410 @@
+// bower:scss
+// endbower
+
+@font-face {
+  font-family: 'interstateregular';
+  src: url('../fonts/interstate-regular-webfont.woff2') format('woff2'),
+  url('../fonts/interstate-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'interstatelight';
+  src: url('../fonts/interstate_light-webfont.woff2') format('woff2'),
+  url('../fonts/interstate_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'interstatebold';
+  src: url('../fonts/interstate_bold-webfont.woff2') format('woff2'),
+  url('../fonts/interstate_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  color: #000000;
+  font-family: 'interstatelight', Arial, Serif;
+  h1 {
+    font-size: 50px;
+    font-family: 'interstatebold', Arial, Serif;
+    text-transform: uppercase;
+  }
+  h2, h3 {
+    font-size: 30px;
+    font-weight: normal;
+    opacity: 0.6;
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+  p, h4 {
+    font-size: 20px;
+  }
+  h4 {
+    font-family: 'interstatebold', Arial, Serif;
+  }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  height:80px;
+  .container {
+    padding: 0px;
+  }
+  .navbar-brand {
+    img {
+      height: 40px;
+    }
+  }
+  .menu-button, .menu-search, .menu-link {
+    color: #000000;
+    border: 0;
+    font-size: 18px;
+    &:hover {
+      background-color: transparent;
+      text-decoration: none;
+    }
+    &:focus {
+      background-color: transparent;
+      text-decoration: none;
+    }
+    div {
+      display: inline-block;
+      vertical-align: middle;
+      &.icon-bars {
+        margin-top: -2px;
+        .icon-bar {
+          width: 38px;
+          height: 4px;
+          background-color: #000000;
+        }
+      }
+    }
+
+  }
+  .menu-search {
+    margin-top: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    left: 7px;
+    top: -2px;
+  }
+  .menu-link {
+    margin-top: 10px;
+    padding: 0 10px;
+    text-align: left;
+    span {
+      opacity: 0.2;
+      border-left: 2px solid #000000;
+      height: 20px;
+      padding-right: 10px;
+      display: inline;
+    }
+    a {
+      color: #000000;
+      cursor: pointer;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* Custom page footer */
+.footer {
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container, .container-fluid {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #ebebeb;
+}
+
+.selector {
+  border-radius: 50%;
+  background: #009fe3;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin: -25px;
+  span {
+    color: #ffffff;
+    font-size: 30px;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1120px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.search-big {
+  font-size: 80px;
+  border: 0;
+}
+
+.about-container {
+  h1, h2 {
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  .line {
+    background-image: url("../images/about-line-copy.png");
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-position: 110px;
+    background-size: 78%;
+    bottom: -106px;
+    z-index: 10;
+    background-repeat: no-repeat;
+  }
+  .row.diagram {
+    h2 {
+      font-family: 'interstatebold', Arial, Serif;
+      color: #009fe3;
+      opacity: 1;
+    }
+    div {
+      font-size: 18px;
+      background-color: #ebebeb;
+      height: 170px;
+      padding-top: 10px;
+      border: 1px solid white;
+      margin-top: 20px;
+      span {
+        color: #009fe3;
+        font-family: 'interstatebold', Arial, Serif;
+        text-transform: uppercase;
+      }
+      p {
+        opacity: 0.6;
+      }
+    }
+    margin-bottom: 20px;
+  }
+  padding-bottom: 80px;
+}
+
+.services-container {
+  h3 {
+    color: #009fe3;
+    opacity: 1;
+    margin-bottom: 0;
+    font-family: 'interstatebold', Arial, Serif;
+    text-transform: uppercase;
+    font-size: 34px;
+  }
+  hr {
+    width: 40%;
+    margin-top: 0;
+    border-top: 3px solid #009fe3;
+  }
+  img {
+    max-height: 304px;
+    max-width: 545px;
+  }
+  .row.services {
+    margin-bottom: 40px;
+  }
+}
+
+.products-container, #searchModal {
+  h1 {
+    padding: 20px;
+  }
+  .thumbnail {
+    width: 257.5px;
+    height: 330px;
+    vertical-align: top;
+    border: 5px solid rgba(0, 0, 0, .08);
+    border-radius: inherit;
+    display: inline-block;
+    margin: 15px;
+    .link {
+      color: #009fe3;
+      cursor: pointer;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  p a.categories {
+    color: #000000;
+    opacity: 0.6;
+    padding-right: 20px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+    &.active {
+      color: #009fe3;
+    }
+  }
+  .product-info {
+    font-size: 18px;
+    p {
+      font-family: 'interstatebold', Arial, Serif;
+      text-transform: uppercase;
+    }
+    table {
+      width: 100%;
+      tr {
+        background-color: #ebebeb;
+        border: 1px solid white;
+        td {
+          padding: 3px 20px;
+        }
+      }
+    }
+  }
+}
+
+.case-studies-container {
+  #case_studies_thumbnails {
+    .row {
+      display: flex;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.norlux-button {
+  margin-top: 20px;
+  background-color: white !important;
+  border: 2px solid black !important;
+  color: black !important;
+  padding: 8px 15px !important;
+  min-width: 200px !important;
+  font-size: 18px !important;
+  font-family: 'interstatebold', Arial, Serif !important;
+  &.blackout {
+    background-color: black !important;
+    color: white !important;
+    padding: 8px 80px !important;
+  }
+}
+
+.contact-container {
+  .container {
+    padding: 0 20px;
+    h1 {
+      margin-bottom: 20px;
+    }
+    form {
+      max-width: 800px;
+      margin: 0 auto;
+      input, textarea {
+        border: none;
+        border-radius: 0;
+        padding: 25px;
+        font-family: 'interstatelight', Arial, Serif;
+        font-size: 16px;
+      }
+      textarea {
+        height: 250px;
+      }
+    }
+  }
+}
+
+.footer {
+  .store-locations {
+    background-color: #000000;
+    .store-title {
+      color: white;
+      text-align: right;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-family: 'interstatebold', Arial, Serif;
+    }
+    .panel-group .panel {
+      margin-bottom: 0;
+      text-align: left;
+      border: 0;
+      border-radius: 0;
+      .panel-heading {
+        color: #000000;
+        background-color: #999999;
+        border: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 6px 5px;
+        position: relative;
+        border: 2px solid #000000;
+        .panel-title {
+          color: #000000;
+          font-size: 18px;
+        }
+        a {
+          display: block;
+          cursor: pointer;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+        span {
+          color: white;
+        }
+      }
+      .panel-collapse {
+        overflow: scroll;
+        max-height: 200px;
+        border: 2px solid #000000;
+        .panel-body {
+          color: #000000;
+          .name {
+            line-height: 30px;
+            font-family: 'interstatebold', Arial, Serif;
+          }
+          .email, .phone {
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}

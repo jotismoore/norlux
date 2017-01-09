@@ -1,0 +1,25 @@
+// bower:scss
+// endbower
+
+#mainCarousel {
+  padding: 0;
+  .item {
+
+  }
+  //.carousel-control {
+  //  color: #000000;
+  //  text-shadow: none;
+  //}
+  .carousel-indicators {
+    li {
+      width: 15px;
+      height: 15px;
+      border-color: #333333;
+    }
+    .active {
+      background-color: #009fe3;
+      border-color: #009fe3;
+    }
+    bottom: -40px;
+  }
+}
