@@ -2,140 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216fcc41-433d-4ac7-89ec-2de28132c826" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/about-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/norlux-logo-hvit-400-invert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/norlux-logo-hvit-400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/norlux-square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/norlux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Alhama.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Alhama.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Bladeline.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Bladeline.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Linea Extrude.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Linea Extrude.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Linea Market Double.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Linea Market Double.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Panel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Ceiling/Panel.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Apto Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Apto Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Apto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Apto.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Auriga IP44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Auriga IP44.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra IP44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra IP44.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra IP65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra IP65.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra Square Double.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra Square Double.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra Square.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Cobra Square.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Frame Double.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Frame Double.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Frame.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Frame.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Leila Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Leila Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Leila.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Leila.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Suri Recessed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Suri Recessed.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Torres Mini Fixed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Torres Mini Fixed.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Torres Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Torres Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Trimo Micro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Trimo Micro.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Trimo Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Trimo Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Trimo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Trimo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra ArcticWhite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra ArcticWhite.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra Food.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra Food.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra Mini ArcticWhite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra Mini ArcticWhite.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Downlights/Zebra.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Aria.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Aria.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Eta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Eta.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Lucerna.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Lucerna.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Sign.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Sign.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Via.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Outdoor/Via.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Ambi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Ambi.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Calabash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Calabash_spec.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Channel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Channel.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Circa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Circa.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Delta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Delta.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/High Bay 120W.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/High Bay 120W.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/High Bay 30W.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/High Bay 30W.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/High Bay 50W.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/High Bay 50W.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Time.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Time.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Titan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Pendant/Titan.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Lale Mini ArcticWhite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Lale Mini ArcticWhite.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Lale Mini Food.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Lale Mini Food.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Lale Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Lale Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Mato.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Mato.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Mini Myth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Mini Myth.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Ray Mini.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Ray Mini.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Suri.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Suri.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Tube ArcticWhite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Tube ArcticWhite.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Tube.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Spotlights/Tube.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Wall/Eris.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Wall/Eris.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Wall/Eta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Wall/Eta.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Wall/Exilis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/LED Wall/Exilis.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/test-image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/test-image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/yeoman.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/csv/test.csv" afterPath="$PROJECT_DIR$/app/csv/test.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/csv/test.csv" afterPath="$PROJECT_DIR$/dist/csv/test.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/navbar-overwrites.css" afterPath="$PROJECT_DIR$/.tmp/styles/navbar-overwrites.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/factories/csvConverterFactory.js" afterPath="$PROJECT_DIR$/app/scripts/factories/csvConverterFactory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/navbar-overwrites.scss" afterPath="$PROJECT_DIR$/app/styles/navbar-overwrites.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals.html" afterPath="$PROJECT_DIR$/app/views/modals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products.html" afterPath="$PROJECT_DIR$/app/views/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/view-product-modal.html" afterPath="$PROJECT_DIR$/app/views/view-product-modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/scripts.js" afterPath="$PROJECT_DIR$/dist/scripts/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/modals.html" afterPath="$PROJECT_DIR$/dist/views/modals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/products.html" afterPath="$PROJECT_DIR$/dist/views/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/view-product-modal.html" afterPath="$PROJECT_DIR$/dist/views/view-product-modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="norlux-angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="276" column="20" lean-forward="false" selection-start-line="276" selection-start-column="20" selection-end-line="276" selection-end-column="20" />
+            <state relative-caret-position="330">
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -222,17 +90,17 @@
         <entry file="file://$PROJECT_DIR$/app/views/view-product-modal.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
-              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="254" column="36" lean-forward="false" selection-start-line="254" selection-start-column="36" selection-end-line="254" selection-end-column="36" />
+            <state relative-caret-position="256">
+              <caret line="253" column="31" lean-forward="false" selection-start-line="253" selection-start-column="31" selection-end-line="253" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -330,11 +198,11 @@
         <option value="$PROJECT_DIR$/app/scripts/factories/csvConverterFactory.js" />
         <option value="$PROJECT_DIR$/app/views/products.html" />
         <option value="$PROJECT_DIR$/app/views/modals.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/navbar-overwrites.scss" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/views/view-product-modal.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -558,12 +426,12 @@
       <workItem from="1483967557474" duration="282000" />
       <workItem from="1483971285062" duration="4250000" />
       <workItem from="1483976407432" duration="2447000" />
-      <workItem from="1483988892770" duration="5848000" />
+      <workItem from="1483988892770" duration="6063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108424000" />
+    <option name="totallyTimeSpent" value="108639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -918,22 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/modals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="276" column="20" lean-forward="false" selection-start-line="276" selection-start-column="20" selection-end-line="276" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/navbar-overwrites.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -953,15 +805,31 @@
     <entry file="file://$PROJECT_DIR$/app/views/view-product-modal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="254" column="36" lean-forward="false" selection-start-line="254" selection-start-column="36" selection-end-line="254" selection-end-column="36" />
+        <state relative-caret-position="256">
+          <caret line="253" column="31" lean-forward="false" selection-start-line="253" selection-start-column="31" selection-end-line="253" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           <folding />
         </state>
       </provider>
