@@ -201,6 +201,16 @@ gulp.task('md', function () {
     .pipe(gulp.dest(yeoman.dist + '/markdown'));
 });
 
+gulp.task('csv', function () {
+  return gulp.src(yeoman.app + '/csv/*')
+    .pipe(gulp.dest(yeoman.dist + '/csv'));
+});
+
+gulp.task('user-fonts', function () {
+  return gulp.src(yeoman.app + '/fonts/*')
+    .pipe(gulp.dest(yeoman.dist + '/user-fonts'));
+});
+
 gulp.task('images', function () {
   return gulp.src(yeoman.app + '/images/**/*')
     .pipe($.cache($.imagemin({
@@ -226,13 +236,18 @@ gulp.task('copy:fonts', function () {
     .pipe(gulp.dest(yeoman.dist + '/fonts'));
 });
 
+gulp.task('copy:user-fonts', function () {
+  return gulp.src('/fonts/*')
+    .pipe(gulp.dest(yeoman.dist + '/user-fonts'));
+});
+
 gulp.task('copy:favicon', function () {
   return gulp.src(yeoman.app + '/favicon.ico')
     .pipe(gulp.dest(yeoman.dist));
 });
 
 gulp.task('build', ['clean:dist', 'bower'], function () {
-  runSequence(['images', 'md', 'icons', 'copy:extras', 'copy:fonts', 'copy:favicon', 'client:build']);
+  runSequence(['images', 'csv', 'md', 'icons', 'copy:extras', 'user-fonts', 'copy:fonts', 'copy:favicon', 'client:build']);
 });
 
 gulp.task('default', ['build']);
