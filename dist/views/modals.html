@@ -1,0 +1,77 @@
+<div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="color:#fff;">
+      <div class="modal-header" style="border:0;">
+        <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+          <span class="crisscross"></span>
+        </button>
+        <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+      <div class="modal-body text-center">
+        <ul style="list-style-type:none;">
+          <li><a scroll-on-click href="#about" class="big">About Norlux UK</a></li>
+          <li><a scroll-on-click href="#services" class="big">Services</a></li>
+          <li><a scroll-on-click href="#products" class="big">Products</a></li>
+          <li><a scroll-on-click href="#case_studies" class="big">Case Studies</a></li>
+          <li><a scroll-on-click href="#brand_identity" class="big">Brand Identity</a></li>
+          <li><a scroll-on-click href="#contact" class="big">Contact</a></li>
+          <li><a href="#blog" class="big">Blog</a></li>
+          <li><a href="http://norlux.no" target="_blank" class="big">Norlux Norway</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade fullscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="container">
+        <div class="modal-header" style="border:0;">
+          <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+            <span class="crisscross"></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Type to search...</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input class="search-big" type="text" ng-model="search.name" value="Search" placeholder="spot light">
+            </div>
+          </div>
+          <div class="row results">
+            <div class="col-md-12">
+              <div class="thumbnail col-xs-3 no-padding" ng-repeat="product in (search ? (products | filter:search) : [])">
+                <img src="images/{{product.image}}.png" alt="{{product.name}}">
+                <div class="caption">
+                  <p>{{product.name}}</p>
+                  <p class="link" ng-click="productModal.open(product)">View</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade fullscreen" id="aboutNorlux" tabindex="-1" role="dialog" aria-labelledby="aboutNorlux">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1>About Norlux Group</h1>
+        <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+          <span class="noSelect crisscross"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-xs-10 col-xs-offset-1" btf-markdown ng-include="'markdown/about_norlux.md'"></div>
+      </div>
+    </div>
+  </div>
+</div>
