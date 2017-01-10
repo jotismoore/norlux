@@ -30,8 +30,6 @@
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
-  //max-width: 1120px;
-  //margin: 0 auto;
 }
 .navbar-collapse.collapse {
   display: none!important;
@@ -112,6 +110,9 @@
   .modal-body {
     img {
       max-height: 400px;
+      width: 100%;
+      //margin-top: 25%;
+      //margin-bottom: 25%;
     }
   }
 }
@@ -140,8 +141,8 @@
     height: 50%;
     color: white;
     .close {
-      margin-top: -87px;
       opacity: 1;
+      margin-right: 20px;
       .crisscross {
         color: white;
         &:before, &:after {

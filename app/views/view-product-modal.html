@@ -14,10 +14,10 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-xs-6">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img src="images/products/{{model.product.image}}" />
               </div>
-              <div class="col-xs-6 product-info">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 product-info">
                   <p>Product Information</p>
                   <table>
                     <tr ng-repeat="(key, value) in model.product" ng-if="value != '' && key != 'description' && key != 'name' && key != 'image' && key != 'pdf'">

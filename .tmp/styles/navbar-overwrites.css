@@ -121,6 +121,7 @@
 
 #productModal.fullscreen .modal-body img {
   max-height: 400px;
+  width: 100%;
 }
 
 #searchModal.fullscreen {
@@ -153,8 +154,8 @@
 }
 
 #aboutNorlux.fullscreen .modal-header .close {
-  margin-top: -87px;
   opacity: 1;
+  margin-right: 20px;
 }
 
 #aboutNorlux.fullscreen .modal-header .close .crisscross {

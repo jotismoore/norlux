@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="row text-left results">
-            <div class="col-xs-3" ng-repeat="product in (search ? (products | filter:search) : [])">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in (search ? (products | filter:search) : [])">
               <div class="thumbnail">
                 <img src="images/products/{{product.image}}" alt="{{product.name}}">
                 <div class="caption text-center">
@@ -64,10 +64,14 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1>About Norlux Group</h1>
-        <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
-          <span class="noSelect crisscross"></span>
-        </button>
+        <div class="row">
+          <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+            <span class="noSelect crisscross"></span>
+          </button>
+        </div>
+        <div class="row">
+          <h1>About Norlux Group</h1>
+        </div>
       </div>
       <div class="modal-body">
         <div class="col-xs-10 col-xs-offset-1" btf-markdown ng-include="'markdown/about_norlux.md'"></div>

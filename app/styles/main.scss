@@ -108,7 +108,6 @@ body {
   .menu-link {
     margin-top: 10px;
     padding: 0 10px;
-    text-align: left;
     span {
       opacity: 0.2;
       border-left: 2px solid #000000;
@@ -161,6 +160,37 @@ body {
   padding: 0 !important;
 }
 
+@media(max-width:767px){
+  .norlux-button {
+    float: none !important;
+  }
+  .footer {
+    .store-locations {
+      .store-title {
+        text-align: left !important;
+      }
+    }
+  }
+  #productModal.fullscreen .modal-body img {
+    width: 100%;
+  }
+  #searchModal.fullscreen {
+    input {
+      font-size: 80px !important;
+    }
+  }
+}
+
+@media(max-width:991px){
+  .about-container {
+    .diagram {
+      div {
+        height: 120px !important;
+      }
+    }
+  }
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -193,30 +223,32 @@ body {
     position: absolute;
     background-position: 110px;
     background-size: 78%;
-    bottom: -106px;
+    bottom: -88px;
+    left: 0;
     z-index: 10;
     background-repeat: no-repeat;
   }
-  .row.diagram {
+  .diagram {
     h2 {
       font-family: 'interstatebold', Arial, Serif;
       color: #009fe3;
       opacity: 1;
     }
     div {
-      font-size: 18px;
       background-color: #ebebeb;
       height: 170px;
       padding-top: 10px;
       border: 1px solid white;
       margin-top: 20px;
-      span {
-        color: #009fe3;
-        font-family: 'interstatebold', Arial, Serif;
-        text-transform: uppercase;
-      }
       p {
+        font-size: 18px;
         opacity: 0.6;
+        span {
+          color: #009fe3;
+          font-family: 'interstatebold', Arial, Serif;
+          text-transform: uppercase;
+          opacity: 1;
+        }
       }
     }
     margin-bottom: 20px;
@@ -239,8 +271,7 @@ body {
     border-top: 3px solid #009fe3;
   }
   img {
-    max-height: 304px;
-    max-width: 545px;
+    width: 100%;
   }
   .row.services {
     margin-bottom: 40px;
@@ -319,13 +350,22 @@ body {
 
 .case-studies-container {
   #case_studies_thumbnails {
-    .row {
+    [class*="col-"] {
       display: flex;
     }
     img {
       width: 100%;
       height: 100%;
+      cursor: pointer;
     }
+  }
+  .blueimp-gallery > .prev, .blueimp-gallery > .next {
+    font-family: 'Glyphicons Halflings' !important;
+    border: 0 !important;
+    background: none;
+  }
+  .blueimp-gallery > .next {
+    right: 35px !important;
   }
 }
 
@@ -335,7 +375,7 @@ body {
   border: 2px solid black !important;
   color: black !important;
   padding: 8px 15px !important;
-  min-width: 200px !important;
+  width: 229px !important;
   font-size: 18px !important;
   font-family: 'interstatebold', Arial, Serif !important;
   text-transform: none !important;
@@ -343,7 +383,6 @@ body {
   &.blackout {
     background-color: black !important;
     color: white !important;
-    padding: 8px 80px !important;
     margin: 20px 0;
   }
 }
@@ -427,4 +466,24 @@ body {
       }
     }
   }
+  .legal {
+    font-size: 18px;
+  }
+  a.social {
+    background-image: url("../images/footer-icons.png");
+    width: 35px;
+    height: 35px;
+    text-indent: -99999px;
+    display: inline-block;
+    margin: 15px 5px;
+    background-repeat: no-repeat;
+    background-position: -16px -12px;
+    &.twitter {
+      background-position: -61px -12px;
+    }
+    &.instagram {
+      background-position: -106px -12px;
+    }
+  }
 }
+

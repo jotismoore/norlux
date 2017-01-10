@@ -40,23 +40,24 @@ angular.module('norluxAngularApp')
     };
 
     $scope.caseStudiesImages = [
-      [
-        "car_park_01.jpg",
-        "car_showroom_01.jpg",
-        "car_showroom_02.jpg",
-        "electronics_01.jpg"
-      ],
-      [
-        "electronics_02.jpg",
-        "fashion_01.jpg",
-        "fashion_02.jpg",
-        "fashion_03.jpg"
-      ]
+      "car_park_01",
+      "car_showroom_01",
+      "car_showroom_02",
+      "electronics_01",
+      "electronics_02",
+      "fashion_01",
+      "fashion_02",
+      "fashion_03"
     ];
 
-    $scope.caseStudiesFiles = function(imageName) {
+    $scope.caseStudiesFiles = function(imageName, thumb) {
       var folder = imageName.substring(0, imageName.lastIndexOf('_'));
-      return 'images/case_studies/' + folder + '/' + imageName;
+      if (thumb) {
+        return 'images/case_studies/' + folder + '/thumbnail_' + imageName + '.png';
+      }
+      else {
+        return 'images/case_studies/' + folder + '/' + imageName + '.jpg';
+      }
     };
 
     $scope.search = '';

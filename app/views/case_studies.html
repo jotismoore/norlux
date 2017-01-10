@@ -4,21 +4,21 @@
   </div>
 
   <div class="row">
-    <div id="blueimp-gallery" class="blueimp-gallery">
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
       <div class="slides"></div>
-      <a class="prev">‹</a>
-      <a class="next">›</a>
-      <a class="close">×</a>
+      <a class="prev glyphicon glyphicon-menu-left"></a>
+      <a class="next glyphicon glyphicon-menu-right"></a>
+      <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+        <span class="noSelect crisscross"></span>
+      </button>
     </div>
   </div>
   <div class="row">
     <div id="case_studies_thumbnails">
-      <div class="row" ng-repeat="images in caseStudiesImages">
-        <div class="col-xs-3 no-padding" ng-repeat="image in images">
-          <a href="{{caseStudiesFiles(image)}}">
-            <img src="{{caseStudiesFiles(image)}}">
-          </a>
-        </div>
+      <div class="col-lg-3 col-sm-3 col-sm-4 col-xs-6 no-padding" ng-repeat="image in caseStudiesImages">
+        <a href="{{caseStudiesFiles(image, false)}}">
+          <img src="{{caseStudiesFiles(image, true)}}">
+        </a>
       </div>
     </div>
   </div>
