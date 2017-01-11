@@ -134,6 +134,7 @@
   color: #000;
   font-weight: 700;
   width: 100%;
+  outline: none;
 }
 
 #searchModal.fullscreen .results {

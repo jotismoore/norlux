@@ -207,7 +207,7 @@ gulp.task('csv', function () {
 });
 
 gulp.task('user-fonts', function () {
-  return gulp.src(yeoman.app + '/fonts/*')
+  return gulp.src(yeoman.app + '/user-fonts/*')
     .pipe(gulp.dest(yeoman.dist + '/user-fonts'));
 });
 
