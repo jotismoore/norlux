@@ -26,7 +26,6 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       });
-    $locationProvider
-      .html5Mode(false)
-      .hashPrefix('!');
+    $locationProvider.html5Mode(true);
+      // .hashPrefix('!');
   });

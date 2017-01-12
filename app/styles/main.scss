@@ -87,12 +87,15 @@ body {
     div {
       display: inline-block;
       vertical-align: middle;
+      margin-top: -1px;
       &.icon-bars {
-        margin-top: -2px;
+        margin-top: -4px;
         .icon-bar {
           width: 38px;
           height: 4px;
           background-color: #000000;
+          margin: 5px 0;
+          border-radius: 3px;
         }
       }
     }
@@ -102,7 +105,7 @@ body {
     margin-top: 3px;
     font-size: 25px;
     cursor: pointer;
-    left: 7px;
+    left: 14px;
     top: -2px;
   }
   .menu-link {
@@ -186,6 +189,14 @@ body {
   #searchModal.fullscreen {
     input {
       font-size: 80px !important;
+    }
+  }
+}
+
+@media(min-width:1200px) {
+  .diagram {
+    div {
+      padding-top: 30px !important;
     }
   }
 }
@@ -308,7 +319,7 @@ body {
     vertical-align: top;
     border: 5px solid rgba(0, 0, 0, .08);
     border-radius: inherit;
-    height: 350px;
+    height: 330px;
     position: relative;
     padding: 0;
     margin-bottom: 12px;
@@ -325,7 +336,7 @@ body {
         top: 20px;
       }
       p:last-child {
-        bottom: -110px;
+        bottom: -90px;
       }
     }
     img {

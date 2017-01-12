@@ -87,23 +87,26 @@ body h4 {
 .header .menu-button div, .header .menu-search div, .header .menu-link div {
   display: inline-block;
   vertical-align: middle;
+  margin-top: -1px;
 }
 
 .header .menu-button div.icon-bars, .header .menu-search div.icon-bars, .header .menu-link div.icon-bars {
-  margin-top: -2px;
+  margin-top: -4px;
 }
 
 .header .menu-button div.icon-bars .icon-bar, .header .menu-search div.icon-bars .icon-bar, .header .menu-link div.icon-bars .icon-bar {
   width: 38px;
   height: 4px;
   background-color: #000000;
+  margin: 5px 0;
+  border-radius: 3px;
 }
 
 .header .menu-search {
   margin-top: 3px;
   font-size: 25px;
   cursor: pointer;
-  left: 7px;
+  left: 14px;
   top: -2px;
 }
 
@@ -186,6 +189,12 @@ body h4 {
   }
   #searchModal.fullscreen input {
     font-size: 80px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .diagram div {
+    padding-top: 30px !important;
   }
 }
 
@@ -311,7 +320,7 @@ body h4 {
   vertical-align: top;
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: inherit;
-  height: 350px;
+  height: 330px;
   position: relative;
   padding: 0;
   margin-bottom: 12px;
@@ -334,7 +343,7 @@ body h4 {
 }
 
 .products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child {
-  bottom: -110px;
+  bottom: -90px;
 }
 
 .products-container .thumbnail img, #searchModal .thumbnail img {

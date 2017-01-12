@@ -17,6 +17,7 @@ angular.module('norluxAngularApp')
 
     Products.then(function(data){
       $scope.products = data;
+      console.log($scope.products);
     });
 
     Stores.then(function(data){
