@@ -3,20 +3,23 @@
 var ViewProductModel = function () {
   this.visible = false;
 };
-ViewProductModel.prototype.open = function(product) {
+
+ViewProductModel.prototype.open = function(product, products) {
   this.product = product;
+  this.products = products;
   this.visible = true;
 };
+
 ViewProductModel.prototype.close = function() {
   this.visible = false;
 };
 
 angular.module('norluxAngularApp')
-  .directive('viewProductModal', [function() {
+  .directive('viewProductModal', function() {
   return {
     restrict: 'E',
     scope: {
-      model: '=',
+      model: '='
     },
     link: function(scope, element, attributes) {
       scope.$watch('model.visible', function(newValue) {
@@ -35,8 +38,7 @@ angular.module('norluxAngularApp')
           scope.model.visible = false;
         });
       });
-
     },
     templateUrl: 'views/view-product-modal.html'
   };
-}]);
+});

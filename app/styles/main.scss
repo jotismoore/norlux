@@ -176,13 +176,6 @@ body {
   .norlux-button {
     float: none !important;
   }
-  .footer {
-    .store-locations {
-      .store-title {
-        text-align: left !important;
-      }
-    }
-  }
   #productModal.fullscreen .modal-body img {
     width: 100%;
   }
@@ -351,7 +344,8 @@ body {
   p a.categories {
     color: #000000;
     opacity: 0.6;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     cursor: pointer;
     &:hover {
       text-decoration: none;
@@ -359,6 +353,12 @@ body {
     &.active {
       color: #009fe3;
     }
+    &:first-child {
+      border: 0;
+    }
+    border-left: 2px solid rgba(0, 0, 0, .6);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   }
   .product-info {
     font-size: 18px;
@@ -424,6 +424,12 @@ body {
     color: white !important;
     background-color: black !important;
   }
+  &.top {
+    margin: 20px;
+  }
+  &.bottom {
+    padding: 10px 15px !important;
+  }
 }
 
 .contact-container {
@@ -450,14 +456,23 @@ body {
 }
 
 .footer {
+  .container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
   .store-locations {
+    .container {
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
     background-color: #000000;
     .store-title {
       color: white;
-      text-align: right;
+      text-align: center;
       font-size: 20px;
       text-transform: uppercase;
       font-family: 'interstatebold', Arial, Serif;
+      margin: 0 0 10px 0;
     }
     .panel-group .panel {
       margin-bottom: 0;
@@ -483,14 +498,24 @@ body {
           &:hover {
             text-decoration: none;
           }
+          &.collapsed span.accordion-closed {
+            display: block;
+          }
+          &.collapsed span.accordion-open {
+            display: none;
+          }
         }
-        span {
+        span.accordion-closed {
           color: white;
+          display: none;
+        }
+        span.accordion-open {
+          color: black;
         }
       }
       .panel-collapse {
-        overflow: scroll;
-        max-height: 200px;
+        //overflow: scroll;
+        //max-height: 200px;
         border: 2px solid #000000;
         .panel-body {
           color: #000000;
@@ -506,7 +531,11 @@ body {
     }
   }
   .legal {
-    font-size: 18px;
+    font-size: 16px;
+    color: black;
+    span {
+      opacity: 0.3;
+    }
   }
   a.social {
     background-image: url("../images/footer-icons.png");
@@ -514,7 +543,7 @@ body {
     height: 35px;
     text-indent: -99999px;
     display: inline-block;
-    margin: 15px 5px;
+    margin: 25px 5px;
     background-repeat: no-repeat;
     background-position: -16px -12px;
     &.twitter {

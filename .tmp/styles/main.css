@@ -181,9 +181,6 @@ body h4 {
   .norlux-button {
     float: none !important;
   }
-  .footer .store-locations .store-title {
-    text-align: left !important;
-  }
   #productModal.fullscreen .modal-body img {
     width: 100%;
   }
@@ -359,8 +356,13 @@ body h4 {
 .products-container p a.categories, #searchModal p a.categories {
   color: #000000;
   opacity: 0.6;
-  padding-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   cursor: pointer;
+  border-left: 2px solid rgba(0, 0, 0, 0.6);
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 .products-container p a.categories:hover, #searchModal p a.categories:hover {
@@ -369,6 +371,10 @@ body h4 {
 
 .products-container p a.categories.active, #searchModal p a.categories.active {
   color: #009fe3;
+}
+
+.products-container p a.categories:first-child, #searchModal p a.categories:first-child {
+  border: 0;
 }
 
 .products-container .product-info, #searchModal .product-info {
@@ -443,6 +449,14 @@ body h4 {
   background-color: black !important;
 }
 
+.norlux-button.top {
+  margin: 20px;
+}
+
+.norlux-button.bottom {
+  padding: 10px 15px !important;
+}
+
 .contact-container .container {
   padding: 0 20px;
 }
@@ -468,16 +482,27 @@ body h4 {
   height: 250px;
 }
 
+.footer .container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .footer .store-locations {
   background-color: #000000;
 }
 
+.footer .store-locations .container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .footer .store-locations .store-title {
   color: white;
-  text-align: right;
+  text-align: center;
   font-size: 20px;
   text-transform: uppercase;
   font-family: 'interstatebold', Arial, Serif;
+  margin: 0 0 10px 0;
 }
 
 .footer .store-locations .panel-group .panel {
@@ -512,13 +537,24 @@ body h4 {
   text-decoration: none;
 }
 
-.footer .store-locations .panel-group .panel .panel-heading span {
+.footer .store-locations .panel-group .panel .panel-heading a.collapsed span.accordion-closed {
+  display: block;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading a.collapsed span.accordion-open {
+  display: none;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading span.accordion-closed {
   color: white;
+  display: none;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading span.accordion-open {
+  color: black;
 }
 
 .footer .store-locations .panel-group .panel .panel-collapse {
-  overflow: scroll;
-  max-height: 200px;
   border: 2px solid #000000;
 }
 
@@ -536,7 +572,12 @@ body h4 {
 }
 
 .footer .legal {
-  font-size: 18px;
+  font-size: 16px;
+  color: black;
+}
+
+.footer .legal span {
+  opacity: 0.3;
 }
 
 .footer a.social {
@@ -545,7 +586,7 @@ body h4 {
   height: 35px;
   text-indent: -99999px;
   display: inline-block;
-  margin: 15px 5px;
+  margin: 25px 5px;
   background-repeat: no-repeat;
   background-position: -16px -12px;
 }

@@ -5,7 +5,9 @@
   height: 80px;
   padding: 20px 0;
   background-color: white;
-  border: 0;
+  border: 1px solid rgba(0, 0, 0, .1);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .navbar-header {
   float: none;
@@ -96,6 +98,12 @@
     margin-top: 0;
     border-top: 3px solid #000000;
   }
+  h2 {
+    font-family: 'interstatebold', Arial, Serif;
+    text-transform: uppercase;
+    color: black;
+    opacity: 1;
+  }
   .modal-header {
     border: 0;
   }
@@ -105,6 +113,12 @@
   }
   .product-info {
     text-align: left;
+    .product-heading {
+      font-family: 'interstatebold', Arial, Serif;
+    }
+    .product-detail {
+      text-align: right;
+    }
   }
 
   .modal-body {

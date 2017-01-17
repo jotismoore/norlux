@@ -2,7 +2,10 @@
   height: 80px;
   padding: 20px 0;
   background-color: white;
-  border: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 .navbar-header {
@@ -106,6 +109,13 @@
   border-top: 3px solid #000000;
 }
 
+#productModal.fullscreen h2 {
+  font-family: 'interstatebold', Arial, Serif;
+  text-transform: uppercase;
+  color: black;
+  opacity: 1;
+}
+
 #productModal.fullscreen .modal-header {
   border: 0;
 }
@@ -117,6 +127,14 @@
 
 #productModal.fullscreen .product-info {
   text-align: left;
+}
+
+#productModal.fullscreen .product-info .product-heading {
+  font-family: 'interstatebold', Arial, Serif;
+}
+
+#productModal.fullscreen .product-info .product-detail {
+  text-align: right;
 }
 
 #productModal.fullscreen .modal-body img {
