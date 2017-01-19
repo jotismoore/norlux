@@ -8,15 +8,28 @@
  * Controller of the norluxAngularApp
  */
 angular.module('norluxAngularApp')
-  .controller('MainCtrl', function ($scope, Products, Stores, $filter) {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, Products, Stores, $filter, $modal) {
 
     Products.then(function(data){
       $scope.products = data;
+
+      $scope.open=function($index){
+        $scope.products[$index].active=true;
+        $scope.modalInstance=$modal.open({
+          templateUrl: 'views/view-product-modal.html',
+          scope: $scope,
+          windowClass: 'productModal'
+        });
+      };
+
+      $scope.cancel=function(){
+        for (var x in $scope.products) {
+          if ($scope.products[x].hasOwnProperty('active')) {
+            $scope.products[x].active=false;
+          }
+        }
+        $scope.modalInstance.close();
+      };
     });
 
     Stores.then(function(data){
@@ -27,8 +40,6 @@ angular.module('norluxAngularApp')
       return $filter('min')
       ($filter('map')(arr, 'country'));
     };
-
-    $scope.productModal = new ViewProductModel();
 
     $scope.productFilter = 'LED Ceiling';
 

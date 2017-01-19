@@ -62,37 +62,46 @@
 
 /* FULL SCREEN MODAL STYLES
    -------------------------------------------------- */
-.fullscreen .modal-dialog {
-  margin: 0 0 0 0;
-  width: 100%;
-  height: 100%;
-  min-height: 100%;
-  padding: 0;
-  color: #333;
-}
+.fullscreen, .productModal {
+  .modal-dialog {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    color: #333;
 
-.fullscreen .modal-content {
-  height: 100%;
-  min-height: 100%;
-  border-radius: 0;
-  color: #333;
-  background: rgba(255, 255, 255, 0.97);
-  overflow:auto;
-}
+    .modal-content {
+      height: 100%;
+      min-height: 100%;
+      border-radius: 0;
+      color: #333;
+      background: rgba(255, 255, 255, 0.97);
+      overflow: auto;
 
-.fullscreen .modal-body a {
-  font-size: 65px;
-  font-family: 'interstatebold', Arial, Serif;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 700;
-  &:hover {
-    color: #009fe3;
-    text-decoration: none;
+      .modal-body a {
+        font-size: 65px;
+        font-family: 'interstatebold', Arial, Serif;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 700;
+        &:hover {
+          color: #009fe3;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
 
-#productModal.fullscreen {
+.productModal {
+  .carousel-control.right,
+  .carousel-control.left {
+    background: none;
+    font-family: 'Glyphicons Halflings' !important;
+    border: 0 !important;
+    cursor: pointer;
+  }
   hr {
     width: 30%;
     margin-top: 0;
@@ -103,6 +112,7 @@
     text-transform: uppercase;
     color: black;
     opacity: 1;
+    padding: 0 auto 15px;
   }
   .modal-header {
     border: 0;

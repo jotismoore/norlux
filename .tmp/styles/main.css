@@ -181,7 +181,7 @@ body h4 {
   .norlux-button {
     float: none !important;
   }
-  #productModal.fullscreen .modal-body img {
+  .productModal .modal-body img {
     width: 100%;
   }
   #searchModal.fullscreen input {
@@ -305,15 +305,15 @@ body h4 {
   margin-bottom: 40px;
 }
 
-.products-container h1, #searchModal h1 {
+.products-container h1, #searchModal h1, .productModal h1 {
   padding: 20px;
 }
 
-.products-container [class*="col-"], #searchModal [class*="col-"] {
+.products-container [class*="col-"], #searchModal [class*="col-"], .productModal [class*="col-"] {
   padding: 0 5px;
 }
 
-.products-container .thumbnail, #searchModal .thumbnail {
+.products-container .thumbnail, #searchModal .thumbnail, .productModal .thumbnail {
   vertical-align: top;
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: inherit;
@@ -323,11 +323,11 @@ body h4 {
   margin-bottom: 12px;
 }
 
-.products-container .thumbnail .caption, #searchModal .thumbnail .caption {
+.products-container .thumbnail .caption, #searchModal .thumbnail .caption, .productModal .thumbnail .caption {
   position: relative;
 }
 
-.products-container .thumbnail .caption p, #searchModal .thumbnail .caption p {
+.products-container .thumbnail .caption p, #searchModal .thumbnail .caption p, .productModal .thumbnail .caption p {
   position: absolute;
   margin: 0px auto;
   width: 100%;
@@ -335,25 +335,25 @@ body h4 {
   padding: 0 9px;
 }
 
-.products-container .thumbnail .caption p:first-child, #searchModal .thumbnail .caption p:first-child {
+.products-container .thumbnail .caption p:first-child, #searchModal .thumbnail .caption p:first-child, .productModal .thumbnail .caption p:first-child {
   top: 20px;
 }
 
-.products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child {
+.products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child, .productModal .thumbnail .caption p:last-child {
   bottom: -90px;
 }
 
-.products-container .thumbnail img, #searchModal .thumbnail img {
+.products-container .thumbnail img, #searchModal .thumbnail img, .productModal .thumbnail img {
   width: auto;
   height: 200px;
 }
 
-.products-container .thumbnail .link, #searchModal .thumbnail .link {
+.products-container .thumbnail .link, #searchModal .thumbnail .link, .productModal .thumbnail .link {
   color: #009fe3;
   cursor: pointer;
 }
 
-.products-container p a.categories, #searchModal p a.categories {
+.products-container p a.categories, #searchModal p a.categories, .productModal p a.categories {
   color: #000000;
   opacity: 0.6;
   padding-right: 10px;
@@ -365,37 +365,37 @@ body h4 {
   /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
-.products-container p a.categories:hover, #searchModal p a.categories:hover {
+.products-container p a.categories:hover, #searchModal p a.categories:hover, .productModal p a.categories:hover {
   text-decoration: none;
 }
 
-.products-container p a.categories.active, #searchModal p a.categories.active {
+.products-container p a.categories.active, #searchModal p a.categories.active, .productModal p a.categories.active {
   color: #009fe3;
 }
 
-.products-container p a.categories:first-child, #searchModal p a.categories:first-child {
+.products-container p a.categories:first-child, #searchModal p a.categories:first-child, .productModal p a.categories:first-child {
   border: 0;
 }
 
-.products-container .product-info, #searchModal .product-info {
+.products-container .product-info, #searchModal .product-info, .productModal .product-info {
   font-size: 18px;
 }
 
-.products-container .product-info p, #searchModal .product-info p {
+.products-container .product-info p, #searchModal .product-info p, .productModal .product-info p {
   font-family: 'interstatebold', Arial, Serif;
   text-transform: uppercase;
 }
 
-.products-container .product-info table, #searchModal .product-info table {
+.products-container .product-info table, #searchModal .product-info table, .productModal .product-info table {
   width: 100%;
 }
 
-.products-container .product-info table tr, #searchModal .product-info table tr {
+.products-container .product-info table tr, #searchModal .product-info table tr, .productModal .product-info table tr {
   background-color: #ebebeb;
   border: 1px solid white;
 }
 
-.products-container .product-info table tr td, #searchModal .product-info table tr td {
+.products-container .product-info table tr td, #searchModal .product-info table tr td, .productModal .product-info table tr td {
   padding: 3px 20px;
 }
 

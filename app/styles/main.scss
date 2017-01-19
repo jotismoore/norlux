@@ -176,7 +176,7 @@ body {
   .norlux-button {
     float: none !important;
   }
-  #productModal.fullscreen .modal-body img {
+  .productModal .modal-body img {
     width: 100%;
   }
   #searchModal.fullscreen {
@@ -301,7 +301,7 @@ body {
   }
 }
 
-.products-container, #searchModal {
+.products-container, #searchModal, .productModal {
   h1 {
     padding: 20px;
   }
@@ -554,4 +554,3 @@ body {
     }
   }
 }
-

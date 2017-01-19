@@ -72,7 +72,7 @@
 
 /* FULL SCREEN MODAL STYLES
    -------------------------------------------------- */
-.fullscreen .modal-dialog {
+.fullscreen .modal-dialog, .productModal .modal-dialog {
   margin: 0 0 0 0;
   width: 100%;
   height: 100%;
@@ -81,7 +81,7 @@
   color: #333;
 }
 
-.fullscreen .modal-content {
+.fullscreen .modal-dialog .modal-content, .productModal .modal-dialog .modal-content {
   height: 100%;
   min-height: 100%;
   border-radius: 0;
@@ -90,7 +90,7 @@
   overflow: auto;
 }
 
-.fullscreen .modal-body a {
+.fullscreen .modal-dialog .modal-content .modal-body a, .productModal .modal-dialog .modal-content .modal-body a {
   font-size: 65px;
   font-family: 'interstatebold', Arial, Serif;
   color: #000;
@@ -98,46 +98,55 @@
   font-weight: 700;
 }
 
-.fullscreen .modal-body a:hover {
+.fullscreen .modal-dialog .modal-content .modal-body a:hover, .productModal .modal-dialog .modal-content .modal-body a:hover {
   color: #009fe3;
   text-decoration: none;
 }
 
-#productModal.fullscreen hr {
+.productModal .carousel-control.right,
+.productModal .carousel-control.left {
+  background: none;
+  font-family: 'Glyphicons Halflings' !important;
+  border: 0 !important;
+  cursor: pointer;
+}
+
+.productModal hr {
   width: 30%;
   margin-top: 0;
   border-top: 3px solid #000000;
 }
 
-#productModal.fullscreen h2 {
+.productModal h2 {
   font-family: 'interstatebold', Arial, Serif;
   text-transform: uppercase;
   color: black;
   opacity: 1;
+  padding: 0 auto 15px;
 }
 
-#productModal.fullscreen .modal-header {
+.productModal .modal-header {
   border: 0;
 }
 
-#productModal.fullscreen .container {
+.productModal .container {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-#productModal.fullscreen .product-info {
+.productModal .product-info {
   text-align: left;
 }
 
-#productModal.fullscreen .product-info .product-heading {
+.productModal .product-info .product-heading {
   font-family: 'interstatebold', Arial, Serif;
 }
 
-#productModal.fullscreen .product-info .product-detail {
+.productModal .product-info .product-detail {
   text-align: right;
 }
 
-#productModal.fullscreen .modal-body img {
+.productModal .modal-body img {
   max-height: 400px;
   width: 100%;
 }
