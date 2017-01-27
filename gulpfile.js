@@ -141,7 +141,7 @@ gulp.task('serve:prod', function() {
     livereload:{
       port:81
     },
-    port: 80,
+    port: 8080,
     middleware:function(connect, opt){
       return [['/bower_components', connect["static"]('./bower_components')]
       ]}
@@ -162,6 +162,7 @@ gulp.task('bower', function () {
   return gulp.src(paths.views.main)
     .pipe(wiredep({
       directory: /*yeoman.app +*/ 'bower_components',
+      exclude: [ 'bower_components/MDBootstrap/css/mdb.css' ],
       ignorePath: '..'
     }))
     .pipe(gulp.dest(yeoman.temp));
