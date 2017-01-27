@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216fcc41-433d-4ac7-89ec-2de28132c826" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/car_park/car_park_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/car_park/thumbnail_car_park_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/car_showroom/car_showroom_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/car_showroom/car_showroom_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/car_showroom/thumbnail_car_showroom_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/car_showroom/thumbnail_car_showroom_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/electronics/electronics_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/electronics/electronics_02.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/electronics/thumbnail_electronics_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/electronics/thumbnail_electronics_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/fashion_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/fashion_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/fashion_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/fashion_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/thumbnail_fashion_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/thumbnail_fashion_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/thumbnail_fashion_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/case_studies/fashion/thumbnail_fashion_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/Auriga_IP44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/Bladeline.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/Cobra_IP44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/Linea_Extrude.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/Linea_Market_Double.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/Panel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/services/bespoke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/services/design.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/services/products.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/services/stockhold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/services/support.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/services/warranty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/products/Apto.jpg" afterPath="$PROJECT_DIR$/dist/images/products/Apto.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/index.html" afterPath="$PROJECT_DIR$/.tmp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="norlux-angular.iws" />
@@ -45,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="108">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="164" column="22" lean-forward="false" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -59,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -162,6 +208,8 @@
       <find>animatio</find>
       <find>wow</find>
       <find>data-wow-delay=&quot;0.6s&quot;</find>
+      <find>vendor</find>
+      <find>css</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/views</dir>
@@ -174,7 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/productCarouselCtrl.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/productDirective.js" />
         <option value="$PROJECT_DIR$/app/scripts/filters/trustAsHtmlFilter.js" />
         <option value="$PROJECT_DIR$/dist/views/view-case-studies-modal.html" />
@@ -225,6 +272,7 @@
         <option value="$PROJECT_DIR$/app/views/modals.html" />
         <option value="$PROJECT_DIR$/app/views/services.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -245,8 +293,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="122" />
+    <option name="x" value="35" />
+    <option name="y" value="81" />
     <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
@@ -302,11 +350,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MDBootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MDBootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MDBootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,12 +579,12 @@
       <workItem from="1484939228762" duration="3287000" />
       <workItem from="1485255091146" duration="1831000" />
       <workItem from="1485284729274" duration="2340000" />
-      <workItem from="1485511918500" duration="19817000" />
+      <workItem from="1485511918500" duration="20847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198775000" />
+    <option name="totallyTimeSpent" value="199805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,19 +596,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="122" width="1440" height="831" extended-state="0" />
-    <editor active="false" />
+    <frame x="35" y="81" width="1440" height="831" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42706132" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48106593" sideWeight="0.44679353" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48106593" sideWeight="0.4108527" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670808" sideWeight="0.49817422" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48106593" sideWeight="0.5532065" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48106593" sideWeight="0.58914727" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -552,14 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -951,14 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -975,10 +1065,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="108">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="164" column="22" lean-forward="false" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
           <folding />
         </state>
       </provider>
