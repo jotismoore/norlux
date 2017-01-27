@@ -13,8 +13,8 @@ angular.module('norluxAngularApp')
         } else {
           $target = $elm;
         }
+        $("body, html").animate({scrollTop: $target.offset().top - 77}, 'slow');
         $('#menuModal').modal('toggle');
-        $("body, html").animate({scrollTop: $target.offset().top - 50}, "slow");
         $('body').removeClass('modal-open');
         $('.modal-backdrop').remove();
       });

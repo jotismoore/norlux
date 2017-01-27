@@ -1,0 +1,34 @@
+// bower:scss
+// endbower
+
+.case-studies-container {
+  #case_studies_thumbnails {
+    [class*="col-"] {
+      display: flex;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      //cursor: pointer;
+    }
+  }
+}
+
+.caseStudyModal {
+  .modal-body {
+    background: none;
+    padding: 0;
+  }
+  .carousel-inner {
+    background: none;
+    padding: 0;
+    img {
+      height:100vh;
+    }
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  background-color: black;
+  opacity: 0.7;
+}

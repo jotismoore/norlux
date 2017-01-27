@@ -1,0 +1,128 @@
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer .container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer .store-locations {
+  background-color: #000000;
+}
+
+.footer .store-locations .container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer .store-locations .store-title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'interstatebold', Arial, Serif;
+  margin: 0 0 10px 0;
+}
+
+.footer .store-locations .panel-group .panel {
+  margin-bottom: 0;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading {
+  color: #000000;
+  background-color: #999999;
+  border: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 6px 5px;
+  position: relative;
+  border: 2px solid #000000;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading .panel-title {
+  color: #000000;
+  font-size: 18px;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading a {
+  display: block;
+  cursor: pointer;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading a:hover {
+  text-decoration: none;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading a.collapsed span.accordion-closed {
+  display: block;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading a.collapsed span.accordion-open {
+  display: none;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading span.accordion-closed {
+  color: white;
+  display: none;
+}
+
+.footer .store-locations .panel-group .panel .panel-heading span.accordion-open {
+  color: black;
+}
+
+.footer .store-locations .panel-group .panel .panel-collapse {
+  border: 2px solid #000000;
+}
+
+.footer .store-locations .panel-group .panel .panel-collapse .panel-body {
+  color: #000000;
+}
+
+.footer .store-locations .panel-group .panel .panel-collapse .panel-body .name {
+  line-height: 30px;
+  font-family: 'interstatebold', Arial, Serif;
+}
+
+.footer .store-locations .panel-group .panel .panel-collapse .panel-body .email, .footer .store-locations .panel-group .panel .panel-collapse .panel-body .phone {
+  line-height: 25px;
+}
+
+.footer .legal {
+  font-size: 16px;
+  color: black;
+}
+
+.footer .legal span {
+  opacity: 0.3;
+}
+
+.footer a.social {
+  background-image: url("../images/footer-icons.png");
+  width: 35px;
+  height: 35px;
+  text-indent: -99999px;
+  display: inline-block;
+  margin: 25px 5px;
+  background-repeat: no-repeat;
+  background-position: -16px -12px;
+}
+
+.footer a.social.twitter {
+  background-position: -61px -12px;
+}
+
+.footer a.social.instagram {
+  background-position: -106px -12px;
+}

@@ -1,0 +1,17 @@
+// bower:scss
+// endbower
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1120px;
+  }
+}
+
+.container, .container-fluid {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #ebebeb;
+}

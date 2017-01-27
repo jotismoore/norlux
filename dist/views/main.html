@@ -1,7 +1,7 @@
 <div class="header container-fluid" ng-include="'views/header.html'"></div>
 <div ng-include="'views/modals.html'"></div>
 
-<div class="container carousel-container no-padding" ng-include="'views/carousel.html'"></div>
+<div ng-controller="CarouselCtrl" class="container carousel-container no-padding" ng-include="'views/carousel.html'"></div>
 
 <div id="about" class="container about-container" ng-include="'views/about.html'"></div>
 
@@ -17,27 +17,27 @@
     <span class="glyphicon glyphicon-menu-down"></span>
   </div>
 </a>
-<div id="products" class="container products-container" ng-include="'views/products.html'"></div>
+<div ng-controller="ProductCtrl" id="products" class="container products-container" ng-include="'views/products.html'"></div>
 
 <a scroll-on-click href="#case_studies">
   <div class="selector">
     <span class="glyphicon glyphicon-menu-down"></span>
   </div>
 </a>
-<div id="case_studies" class="container-fluid case-studies-container" ng-include="'views/case_studies.html'"></div>
+<div ng-controller="CaseStudyCtrl" id="case_studies" class="container-fluid case-studies-container" ng-include="'views/case_studies.html'"></div>
 
-<a scroll-on-click href="#brand_identity">
-  <div class="selector">
-    <span class="glyphicon glyphicon-menu-down"></span>
-  </div>
-</a>
-<div id="brand_identity" class="container brand-identity-container" ng-include="'views/brand_identity.html'"></div>
+<!--<a scroll-on-click href="#brand_identity">-->
+  <!--<div class="selector">-->
+    <!--<span class="glyphicon glyphicon-menu-down"></span>-->
+  <!--</div>-->
+<!--</a>-->
+<!--<div id="brand_identity" class="container brand-identity-container" ng-include="'views/brand_identity.html'"></div>-->
 
 <a scroll-on-click href="#contact">
   <div class="selector">
     <span class="glyphicon glyphicon-menu-down"></span>
   </div>
 </a>
-<div id="contact" class="container-fluid contact-container" ng-include="'views/contact.html'"></div>
+<div id="contact" class="container contact-container" ng-include="'views/contact.html'"></div>
 
-<div id="stores" class="footer" ng-include="'views/footer.html'"></div>
+<div ng-controller="StoreCtrl" id="stores" class="footer" ng-include="'views/footer.html'"></div>

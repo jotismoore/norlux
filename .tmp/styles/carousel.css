@@ -1,5 +1,31 @@
+.carousel-container {
+  height: 620px;
+}
+
+@media (max-width: 1200px) {
+  .carousel-container {
+    height: 537px;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel-container {
+    height: 410px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-container {
+    height: auto;
+  }
+}
+
 #mainCarousel {
   padding: 0;
+}
+
+#mainCarousel .carousel-control {
+  display: none !important;
 }
 
 #mainCarousel .carousel-indicators {
@@ -9,10 +35,36 @@
 #mainCarousel .carousel-indicators li {
   width: 15px;
   height: 15px;
-  border-color: #333333;
+  border: 1px solid black;
 }
 
 #mainCarousel .carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
   background-color: #009fe3;
-  border-color: #009fe3;
+  border: 1px solid #009fe3;
+}
+
+.carousel-control {
+  opacity: 1;
+  text-shadow: 0;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background: none;
+  border: 0 !important;
+  cursor: pointer;
+}
+
+.carousel-control.right span, .carousel-control.left span {
+  font-size: 55px;
+}
+
+.carousel-control .glyphicon.glyphicon-chevron-right:before {
+  content: "\e258" !important;
+}
+
+.carousel-control .glyphicon.glyphicon-chevron-left:before {
+  content: "\e257" !important;
 }

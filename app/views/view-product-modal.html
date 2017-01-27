@@ -1,10 +1,9 @@
-<div class="modal-header">
-  <button type="button" class="noSelect close" ng-click="cancel()">
+<div class="loader"></div>
+<carousel interval="0">
+  <button type="button" class="noSelect close" ng-click="closeProduct()">
     <span class="crisscross"></span>
   </button>
-</div>
-<carousel interval="0">
-  <slide ng-repeat="product in products track by $index" active="product.active">
+  <slide ng-repeat="product in products track by product.id" active="product.active">
     <div class="container">
       <h2 class="modal-title">{{product.name}}</h2>
       <hr />

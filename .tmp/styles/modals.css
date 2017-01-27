@@ -1,0 +1,43 @@
+.close {
+  position: absolute;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: -35%;
+  width: 2em;
+  opacity: 1;
+  z-index: 10;
+  text-align: center;
+  top: 15px;
+  right: 15px;
+}
+
+.close .crisscross {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 6px;
+}
+
+.close .crisscross:before, .close .crisscross:after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 3px;
+  border-radius: 2px;
+  top: 0;
+  background: #999999;
+}
+
+.close .crisscross:before {
+  transform: rotate(45deg);
+  left: -22px;
+}
+
+.close .crisscross:after {
+  transform: rotate(-45deg);
+  right: -23px;
+}
+
+.modal-backdrop, .modal-backdrop.in {
+  display: none;
+}

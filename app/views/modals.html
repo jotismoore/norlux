@@ -1,19 +1,15 @@
 <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content" style="color:#fff;">
-      <div class="modal-header" style="border:0;">
+    <div class="modal-content">
+      <div class="modal-body text-center">
         <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
           <span class="crisscross"></span>
         </button>
-        <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
-      </div>
-      <div class="modal-body text-center">
         <ul style="list-style-type:none;">
           <li><a scroll-on-click href="#about" class="big">About Norlux UK</a></li>
           <li><a scroll-on-click href="#services" class="big">Services</a></li>
           <li><a scroll-on-click href="#products" class="big">Products</a></li>
           <li><a scroll-on-click href="#case_studies" class="big">Case Studies</a></li>
-          <li><a scroll-on-click href="#brand_identity" class="big">Brand Identity</a></li>
           <li><a scroll-on-click href="#contact" class="big">Contact</a></li>
           <li><a href="#blog" class="big">Blog</a></li>
         </ul>
@@ -22,15 +18,13 @@
   </div>
 </div>
 
-<div class="modal fade fullscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+<div ng-controller="ProductCtrl" class="modal fade fullscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header" style="border:0;">
+      <div class="modal-body">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
           <span class="crisscross"></span>
         </button>
-      </div>
-      <div class="modal-body">
         <div class="container">
           <div class="row text-left">
             <div class="col-md-12">
@@ -39,16 +33,16 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <input class="search-big" type="text" ng-model="search.name" value="Search" placeholder="search">
+              <input class="search-big" type="text" ng-model="search" value="Search" placeholder="search">
             </div>
           </div>
           <div class="row text-left results">
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in (search ? (products | filter:search) : [])">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in (search ? (products | filter:search) : []) track by product.id">
               <div class="thumbnail">
                 <img src="images/products/{{product.image}}" alt="{{product.name}}">
                 <div class="caption text-center">
                   <p>{{product.name}}</p>
-                  <p class="link" ng-click="productModal.open(product)">View</p>
+                  <p class="link" ng-click="openProduct(product.id)">View</p>
                 </div>
               </div>
             </div>
@@ -63,14 +57,10 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <div class="row">
-          <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
-            <span class="noSelect crisscross"></span>
-          </button>
-        </div>
-        <div class="row">
-          <h1>About Norlux Group</h1>
-        </div>
+        <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
+          <span class="noSelect crisscross"></span>
+        </button>
+        <h1>About Norlux Group</h1>
       </div>
       <div class="modal-body">
         <div class="col-xs-10 col-xs-offset-1" btf-markdown ng-include="'markdown/about_norlux.md'"></div>

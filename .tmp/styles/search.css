@@ -1,0 +1,27 @@
+#searchModal.fullscreen {
+  text-align: left;
+}
+
+#searchModal.fullscreen input {
+  font-size: 142px !important;
+  font-family: 'interstatebold', Arial, Serif;
+  color: #000;
+  font-weight: 700;
+  width: 100%;
+  outline: none;
+}
+
+#searchModal.fullscreen .results {
+  margin-top: 20px;
+}
+
+#searchModal.fullscreen .search-big {
+  font-size: 80px;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  #searchModal.fullscreen input {
+    font-size: 80px !important;
+  }
+}

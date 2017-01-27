@@ -1,0 +1,10 @@
+<carousel interval="0">
+  <button type="button" class="noSelect close" ng-click="closeCaseStudy()">
+    <span class="crisscross"></span>
+  </button>
+  <slide ng-repeat="image in caseStudiesImages track by $index" active="image.active">
+    <div class="modal-body">
+      <img src="{{caseStudiesFiles(image.image, false)}}" alt="">
+    </div>
+  </slide>
+</carousel>

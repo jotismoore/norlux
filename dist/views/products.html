@@ -1,16 +1,16 @@
 <h1>PRODUCTS</h1>
 
 <div class="row">
-  <p><a class="categories" ng-class="{'active': productFilter == product.category}" ng-repeat="product in products | unique:'category'" ng-click="filterCategory(product.category)">{{product.category}}</a></p>
+  <p><a class="categories" ng-class="{'active': productFilter == category}" ng-repeat="category in categories" ng-click="filterCategory(category)">{{category}}</a></p>
 </div>
 
 <div class="row text-left">
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in products | filter:productFilter track by $index">
+  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in products | filter: productFilter track by product.id">
     <div class="thumbnail">
       <img src="images/products/{{product.image}}" alt="{{product.name}}">
       <div class="caption text-center">
         <p>{{product.name}}</p>
-        <p class="link" ng-click="open($index)">View</p>
+        <p class="link" ng-click="openProduct(product.id)">View</p>
       </div>
     </div>
   </div>

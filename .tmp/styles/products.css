@@ -1,0 +1,175 @@
+@media (max-width: 767px) {
+  .productModal .modal-body img {
+    width: 100%;
+  }
+}
+
+.products-container h1, #searchModal h1, .productModal h1 {
+  padding: 20px;
+}
+
+.products-container [class*="col-"], #searchModal [class*="col-"], .productModal [class*="col-"] {
+  padding: 0 5px;
+}
+
+.products-container .thumbnail, #searchModal .thumbnail, .productModal .thumbnail {
+  vertical-align: top;
+  border: 5px solid rgba(0, 0, 0, 0.08);
+  border-radius: inherit;
+  height: 330px;
+  position: relative;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.products-container .thumbnail .caption, #searchModal .thumbnail .caption, .productModal .thumbnail .caption {
+  position: relative;
+}
+
+.products-container .thumbnail .caption p, #searchModal .thumbnail .caption p, .productModal .thumbnail .caption p {
+  position: absolute;
+  margin: 0px auto;
+  width: 100%;
+  left: 0;
+  padding: 0 9px;
+}
+
+.products-container .thumbnail .caption p:first-child, #searchModal .thumbnail .caption p:first-child, .productModal .thumbnail .caption p:first-child {
+  top: 20px;
+}
+
+.products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child, .productModal .thumbnail .caption p:last-child {
+  bottom: -90px;
+}
+
+.products-container .thumbnail img, #searchModal .thumbnail img, .productModal .thumbnail img {
+  width: auto;
+  height: 200px;
+}
+
+.products-container .thumbnail .link, #searchModal .thumbnail .link, .productModal .thumbnail .link {
+  color: #009fe3;
+  cursor: pointer;
+}
+
+.products-container p a.categories, #searchModal p a.categories, .productModal p a.categories {
+  color: #000000;
+  opacity: 0.6;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  border-left: 2px solid rgba(0, 0, 0, 0.6);
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.products-container p a.categories:hover, #searchModal p a.categories:hover, .productModal p a.categories:hover {
+  text-decoration: none;
+}
+
+.products-container p a.categories.active, #searchModal p a.categories.active, .productModal p a.categories.active {
+  color: #009fe3;
+}
+
+.products-container p a.categories:first-child, #searchModal p a.categories:first-child, .productModal p a.categories:first-child {
+  border: 0;
+}
+
+.productModal .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #009fe3;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: -60px auto 0;
+  left: 0;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.productModal .carousel-inner {
+  display: none;
+}
+
+.productModal .carousel-indicators {
+  display: none !important;
+}
+
+.productModal .carousel-control {
+  display: none;
+}
+
+.productModal .carousel-control.right span, .productModal .carousel-control.left span {
+  color: black;
+}
+
+.productModal hr {
+  width: 30%;
+  margin-top: 0;
+  border-top: 3px solid #000000;
+}
+
+.productModal h2 {
+  font-family: 'interstatebold', Arial, Serif;
+  text-transform: uppercase;
+  color: black;
+  opacity: 1;
+  padding: 0 auto 15px;
+}
+
+.productModal .modal-header {
+  border: 0;
+}
+
+.productModal .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.productModal .product-info {
+  font-size: 18px;
+  text-align: left;
+}
+
+.productModal .product-info p {
+  font-family: 'interstatebold', Arial, Serif;
+  text-transform: uppercase;
+}
+
+.productModal .product-info .product-heading {
+  font-family: 'interstatebold', Arial, Serif;
+}
+
+.productModal .product-info .product-detail {
+  text-align: right;
+}
+
+.productModal .product-info table {
+  width: 100%;
+}
+
+.productModal .product-info table tr {
+  background-color: #ebebeb;
+  border: 1px solid white;
+}
+
+.productModal .product-info table tr td {
+  padding: 3px 20px;
+}
+
+.productModal .modal-body img {
+  max-height: 400px;
+  width: 100%;
+}

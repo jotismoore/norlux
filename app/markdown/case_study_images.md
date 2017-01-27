@@ -1,0 +1,8 @@
+car_park_01
+car_showroom_01
+car_showroom_02
+electronics_01
+electronics_02
+fashion_01
+fashion_02
+fashion_03

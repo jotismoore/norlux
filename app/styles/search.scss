@@ -1,0 +1,29 @@
+// bower:scss
+// endbower
+
+#searchModal.fullscreen {
+  text-align: left;
+  input {
+    font-size: 142px !important;
+    font-family: 'interstatebold', Arial, Serif;
+    color: #000;
+    font-weight: 700;
+    width: 100%;
+    outline: none;
+  }
+  .results {
+    margin-top: 20px;
+  }
+  .search-big {
+    font-size: 80px;
+    border: 0;
+  }
+}
+
+@media(max-width:767px){
+  #searchModal.fullscreen {
+    input {
+      font-size: 80px !important;
+    }
+  }
+}

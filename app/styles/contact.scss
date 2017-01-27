@@ -1,0 +1,23 @@
+// bower:scss
+// endbower
+
+.contact-container {
+  padding: 0 20px;
+  h1 {
+    margin-bottom: 20px;
+  }
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    input, textarea {
+      border: 5px solid #ebebeb;
+      border-radius: 0;
+      padding: 25px;
+      font-family: 'interstatelight', Arial, Serif;
+      font-size: 16px;
+    }
+    textarea {
+      height: 250px;
+    }
+  }
+}

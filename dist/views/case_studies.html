@@ -4,33 +4,9 @@
   </div>
 
   <div class="row">
-    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-      <div class="slides"></div>
-      <a class="prev glyphicon glyphicon-menu-left"></a>
-      <a class="next glyphicon glyphicon-menu-right"></a>
-      <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
-        <span class="noSelect crisscross"></span>
-      </button>
-    </div>
-  </div>
-  <div class="row">
-    <div id="case_studies_thumbnails">
-      <div class="col-lg-3 col-sm-3 col-sm-4 col-xs-6 no-padding" ng-repeat="image in caseStudiesImages">
-        <a href="{{caseStudiesFiles(image, false)}}">
-          <img src="{{caseStudiesFiles(image, true)}}">
-        </a>
-      </div>
+    <div id="case_studies_thumbnails" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 no-padding" ng-repeat="image in caseStudiesImages track by $index">
+      <img src="{{caseStudiesFiles(image.image, true)}}" alt="">
+      <!--<img src="{{caseStudiesFiles(image.image, true)}}" alt="" ng-click="openCaseStudy($index)">-->
     </div>
   </div>
 </div>
-
-<script>
-  document.getElementById('case_studies_thumbnails').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-      link = target.src ? target.parentNode : target,
-      options = {index: link, event: event},
-      links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-  };
-</script>

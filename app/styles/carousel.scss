@@ -1,25 +1,67 @@
 // bower:scss
 // endbower
 
+.carousel-container {
+  height: 620px;
+}
+
+@media(max-width:1200px) {
+  .carousel-container {
+    height: 537px;
+  }
+}
+
+@media(max-width:991px){
+  .carousel-container {
+    height: 410px;
+  }
+}
+
+@media(max-width:767px){
+  .carousel-container {
+    height: auto;
+  }
+}
+
+
 #mainCarousel {
   padding: 0;
-  .item {
-
+  .carousel-control {
+    display: none !important;
   }
-  //.carousel-control {
-  //  color: #000000;
-  //  text-shadow: none;
-  //}
   .carousel-indicators {
+    bottom: -40px;
     li {
       width: 15px;
       height: 15px;
-      border-color: #333333;
+      border: 1px solid black;
     }
-    .active {
+    .active{
+      width: 15px;
+      height: 15px;
+      margin: 1px;
       background-color: #009fe3;
-      border-color: #009fe3;
+      border: 1px solid #009fe3;
     }
-    bottom: -40px;
+  }
+}
+
+.carousel-control {
+  opacity: 1;
+  text-shadow: 0;
+  &.right,
+  &.left {
+    background: none;
+    border: 0 !important;
+    cursor: pointer;
+    span {
+      font-size: 55px;
+    }
+  }
+  .glyphicon.glyphicon-chevron-right:before {
+    content: "\e258" !important;
+  }
+  .glyphicon.glyphicon-chevron-left:before {
+    content: "\e257" !important;
   }
 }
