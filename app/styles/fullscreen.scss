@@ -1,22 +1,6 @@
 // bower:scss
 // endbower
 
-@media (max-width: 480px){
-  .fullscreen .modal-body ul {
-    padding: 10px 0 0 0;
-    overflow: auto;
-  }
-  .fullscreen .modal-body li {
-    padding: 4px 0 4px 0 ;
-  }
-  .fullscreen .modal-body a {
-    color: #333;
-    font-size: 200%;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-}
-
 .fullscreen, .productModal, .caseStudyModal {
   .modal-dialog {
     margin: 0 0 0 0;
@@ -43,6 +27,31 @@
         &:hover {
           color: #009fe3;
           text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .fullscreen .modal-body ul {
+    padding: 10px 0 0 0;
+    overflow: auto;
+  }
+  .fullscreen .modal-body li {
+    padding: 4px 0 4px 0 ;
+  }
+  .fullscreen .modal-body a {
+    color: #333;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #menuModal.fullscreen {
+    .modal-dialog {
+      .modal-content {
+        .modal-body a {
+          font-size: 45px;
         }
       }
     }

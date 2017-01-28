@@ -1,12 +1,6 @@
 // bower:scss
 // endbower
 
-@media(max-width:767px){
-  .productModal .modal-body img {
-    width: 100%;
-  }
-}
-
 .products-container, #searchModal, .productModal {
   h1 {
     padding: 20px;
@@ -154,5 +148,14 @@
       max-height: 400px;
       width: 100%;
     }
+  }
+}
+
+@media(max-width:767px){
+  .productModal .modal-body img {
+    width: 100%;
+  }
+  .carousel-control {
+    display: none !important;
   }
 }

@@ -1,19 +1,3 @@
-@media (max-width: 480px) {
-  .fullscreen .modal-body ul {
-    padding: 10px 0 0 0;
-    overflow: auto;
-  }
-  .fullscreen .modal-body li {
-    padding: 4px 0 4px 0;
-  }
-  .fullscreen .modal-body a {
-    color: #333;
-    font-size: 200%;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-}
-
 .fullscreen .modal-dialog, .productModal .modal-dialog, .caseStudyModal .modal-dialog {
   margin: 0 0 0 0;
   width: 100%;
@@ -43,4 +27,23 @@
 .fullscreen .modal-dialog .modal-content .modal-body a:hover, .productModal .modal-dialog .modal-content .modal-body a:hover, .caseStudyModal .modal-dialog .modal-content .modal-body a:hover {
   color: #009fe3;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .fullscreen .modal-body ul {
+    padding: 10px 0 0 0;
+    overflow: auto;
+  }
+  .fullscreen .modal-body li {
+    padding: 4px 0 4px 0;
+  }
+  .fullscreen .modal-body a {
+    color: #333;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #menuModal.fullscreen .modal-dialog .modal-content .modal-body a {
+    font-size: 45px;
+  }
 }

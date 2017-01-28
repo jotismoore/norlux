@@ -1,9 +1,3 @@
-@media (max-width: 767px) {
-  .productModal .modal-body img {
-    width: 100%;
-  }
-}
-
 .products-container h1, #searchModal h1, .productModal h1 {
   padding: 20px;
 }
@@ -172,4 +166,13 @@
 .productModal .modal-body img {
   max-height: 400px;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .productModal .modal-body img {
+    width: 100%;
+  }
+  .carousel-control {
+    display: none !important;
+  }
 }

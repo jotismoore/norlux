@@ -1,15 +1,3 @@
-@media (max-width: 991px) {
-  .about-container .diagram div {
-    height: 120px !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .about-container .diagram div {
-    padding-top: 30px !important;
-  }
-}
-
 .about-container {
   padding-bottom: 80px;
 }
@@ -90,4 +78,16 @@
 
 #aboutNorlux.fullscreen .modal-header .close .crisscross:before, #aboutNorlux.fullscreen .modal-header .close .crisscross:after {
   background: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .about-container .diagram div {
+    padding-top: 30px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-container .diagram div {
+    height: 120px !important;
+  }
 }

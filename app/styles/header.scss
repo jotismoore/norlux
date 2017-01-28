@@ -1,13 +1,6 @@
 // bower:scss
 // endbower
 
-@media screen and (min-width: 768px) {
-  .header {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .header {
   height:80px;
   padding-left: 15px;
@@ -22,7 +15,7 @@
     }
     span {
       float: left;
-      margin: 11px 7px;
+      margin: 11px 2px;
       font-size: 25px;
       color: black;
     }
@@ -80,5 +73,12 @@
         text-decoration: none;
       }
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
