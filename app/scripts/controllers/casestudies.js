@@ -9,6 +9,9 @@
  */
 angular.module('norluxAngularApp')
   .controller('CaseStudyCtrl', function ($scope, $http, $modal) {
+    $scope.$on('$locationChangeStart', function(ev) {
+      ev.preventDefault();
+    });
     $http.get("markdown/case_study_images.md").then(function(res){
       var images = JSON.stringify(res.data).replace(/\\n/g, ",").replace(/"/g, '').split(',');
       $scope.caseStudiesImages = Object.values(images

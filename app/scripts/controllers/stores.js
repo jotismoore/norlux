@@ -9,6 +9,9 @@
  */
 angular.module('norluxAngularApp')
   .controller('StoreCtrl', function ($scope, Stores, $filter) {
+    $scope.$on('$locationChangeStart', function(ev) {
+      ev.preventDefault();
+    });
     Stores.then(function(data){
       var indexedStores = [];
       $scope.stores = data;

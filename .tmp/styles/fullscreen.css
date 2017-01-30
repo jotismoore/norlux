@@ -1,3 +1,7 @@
+.fullscreen, .productModal, .caseStudyModal {
+  padding: 0 !important;
+}
+
 .fullscreen .modal-dialog, .productModal .modal-dialog, .caseStudyModal .modal-dialog {
   margin: 0 0 0 0;
   width: 100%;

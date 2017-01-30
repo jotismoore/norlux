@@ -26,7 +26,10 @@
 }
 
 body {
-  padding: 0;
+  &.modal-open {
+    overflow: visible !important;
+  }
+  padding: 0 !important;
   margin: 0 auto;
   color: #000000;
   font-family: 'interstatelight', Arial, Serif;

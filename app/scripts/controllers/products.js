@@ -9,6 +9,9 @@
  */
 angular.module('norluxAngularApp')
   .controller('ProductCtrl', function ($scope, Products, $modal) {
+    $scope.$on('$locationChangeStart', function(ev) {
+      ev.preventDefault();
+    });
     Products.then(function(data){
       $scope.categories = [];
       $scope.products = data;

@@ -9,6 +9,9 @@
  */
 angular.module('norluxAngularApp')
   .controller('CarouselCtrl', function ($scope, $http) {
+    $scope.$on('$locationChangeStart', function(ev) {
+      ev.preventDefault();
+    });
     $http.get("markdown/main_carousel_images.md").then(function(res) {
       var images = JSON.stringify(res.data).replace(/\\n/g, ",").replace(/"/g, '').split(',');
       $scope.mainCarouselImages = Object.values(images

@@ -20,10 +20,14 @@
 }
 
 body {
-  padding: 0;
+  padding: 0 !important;
   margin: 0 auto;
   color: #000000;
   font-family: 'interstatelight', Arial, Serif;
+}
+
+body.modal-open {
+  overflow: visible !important;
 }
 
 body h1 {
