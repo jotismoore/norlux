@@ -32,7 +32,7 @@ angular.module('norluxAngularApp')
 
 angular.module('norluxAngularApp')
   .factory('Stores', ['$http', function($http){
-    var Url   = "csv/stores-test.csv";
+    var Url   = "csv/stores.csv";
     var Stores = $http.get(Url).then(function(response){
       return CSVToArray(response.data);
     });

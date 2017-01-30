@@ -4,9 +4,13 @@
   </div>
 
   <div class="row">
-    <div id="case_studies_thumbnails" class="col-lg-3 col-md-3 col-sm-4 col-xs-6 no-padding" ng-repeat="image in caseStudiesImages track by $index">
+    <div id="case_studies_thumbnails" class="col-lg-3 col-md-3 col-sm-3 col-xs-6 no-padding" ng-repeat="image in caseStudiesImages | limitTo:limit track by $index">
       <img src="{{caseStudiesFiles(image.image, true)}}" alt="">
       <!--<img src="{{caseStudiesFiles(image.image, true)}}" alt="" ng-click="openCaseStudy($index)">-->
     </div>
+  </div>
+
+  <div class="row">
+    <button class="norlux-button" ng-click='loadMore()'>Show More</button>
   </div>
 </div>

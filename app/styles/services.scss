@@ -2,6 +2,8 @@
 // endbower
 
 .services-container {
+  padding-bottom: 0;
+  margin-bottom: 0;
   h3 {
     color: #009fe3;
     opacity: 1;
@@ -26,13 +28,13 @@
     height: 304px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: center center;
   }
   .services-image-right {
     height: 304px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
   }
   .services-text-right {
     background-color: white;
