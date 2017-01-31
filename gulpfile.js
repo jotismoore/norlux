@@ -141,7 +141,7 @@ gulp.task('serve:prod', function() {
     livereload:{
       port:81
     },
-    port: 8080,
+    port: 8000,
     middleware:function(connect, opt){
       return [['/bower_components', connect["static"]('./bower_components')]
       ]}
@@ -219,11 +219,11 @@ gulp.task('pdf', function () {
 
 gulp.task('images', function () {
   return gulp.src(yeoman.app + '/images/**/*')
-    .pipe($.cache($.imagemin({
+    .pipe($.imagemin({
       optimizationLevel: 5,
       progressive: true,
       interlaced: true
-    })))
+    }))
     .pipe(gulp.dest(yeoman.dist + '/images'));
 });
 
