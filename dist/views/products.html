@@ -7,7 +7,7 @@
 <div class="row text-left">
   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in products | filter: productFilter track by product.id">
     <div class="thumbnail">
-      <img src="images/products/{{product.image}}" alt="{{product.name}}">
+      <img ng-click="openProduct(product.id)" ng-src="images/products/{{product.image}}" alt="{{product.name}}">
       <div class="caption text-center">
         <p>{{product.name}}</p>
         <p class="link" ng-click="openProduct(product.id)">View</p>

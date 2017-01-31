@@ -39,6 +39,7 @@
 .products-container .thumbnail img, #searchModal .thumbnail img, .productModal .thumbnail img {
   width: auto;
   height: 200px;
+  cursor: pointer;
 }
 
 .products-container .thumbnail .link, #searchModal .thumbnail .link, .productModal .thumbnail .link {
@@ -130,6 +131,10 @@
 .productModal .container {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.productModal .container .model-description {
+  min-height: 180px;
 }
 
 .productModal .product-info {

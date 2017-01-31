@@ -4,7 +4,7 @@
   </button>
   <slide ng-repeat="image in caseStudiesImages track by $index" active="image.active">
     <div class="modal-body">
-      <img src="{{caseStudiesFiles(image.image, false)}}" alt="">
+      <img ng-src="{{caseStudiesFiles(image.image, false)}}" alt="">
     </div>
   </slide>
 </carousel>

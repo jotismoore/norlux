@@ -5,7 +5,7 @@
 
   <div class="row">
     <div id="case_studies_thumbnails" class="col-lg-3 col-md-3 col-sm-3 col-xs-6 no-padding" ng-repeat="image in caseStudiesImages | limitTo:limit track by $index">
-      <img src="{{caseStudiesFiles(image.image, true)}}" alt="">
+      <img ng-src="{{caseStudiesFiles(image.image, true)}}" alt="">
       <!--<img src="{{caseStudiesFiles(image.image, true)}}" alt="" ng-click="openCaseStudy($index)">-->
     </div>
   </div>
