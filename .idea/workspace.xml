@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216fcc41-433d-4ac7-89ec-2de28132c826" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/calabash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/products/time.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/markdown/services-bespoke.md" afterPath="$PROJECT_DIR$/app/markdown/services-concept.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/markdown/services-manufacture.md" afterPath="$PROJECT_DIR$/app/markdown/services-focus.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/products/eta.jpg" afterPath="$PROJECT_DIR$/app/images/products/eta.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Bladeline.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Cobra_Square.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Cobra_Square_Double.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Delta.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Eris.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/High_Bay_30W.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/High_Bay_50W.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Linea_Extrude.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Lucerna.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Suri.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Torres_Mini.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Zebra.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Zebra_ArcticWhite.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Zebra_Food.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Zebra_Mini.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pdfs/Zebra_Mini_ArcticWhite.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/apto_mini.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/leila_mini.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/products/trimo_micro.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/carousel.css" afterPath="$PROJECT_DIR$/.tmp/styles/carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/products.css" afterPath="$PROJECT_DIR$/.tmp/styles/products.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/csv/products.csv" afterPath="$PROJECT_DIR$/app/csv/products.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/about.md" afterPath="$PROJECT_DIR$/app/markdown/about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/about_norlux.md" afterPath="$PROJECT_DIR$/app/markdown/about_norlux.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-design.md" afterPath="$PROJECT_DIR$/app/markdown/services-design.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-guarantee.md" afterPath="$PROJECT_DIR$/app/markdown/services-guarantee.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-product.md" afterPath="$PROJECT_DIR$/app/markdown/services-product.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-stockhold.md" afterPath="$PROJECT_DIR$/app/markdown/services-stockhold.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-support.md" afterPath="$PROJECT_DIR$/app/markdown/services-support.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-warranty.md" afterPath="$PROJECT_DIR$/app/markdown/services-warranty.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services.md" afterPath="$PROJECT_DIR$/app/markdown/services.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/products.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/carousel.scss" afterPath="$PROJECT_DIR$/app/styles/carousel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/products.scss" afterPath="$PROJECT_DIR$/app/styles/products.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact.html" afterPath="$PROJECT_DIR$/app/views/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals.html" afterPath="$PROJECT_DIR$/app/views/modals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services.html" afterPath="$PROJECT_DIR$/app/views/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/view-product-modal.html" afterPath="$PROJECT_DIR$/app/views/view-product-modal.html" />
     </list>
     <ignored path="norlux-angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,6 +44,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="services-design.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/markdown/services-design.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,16 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services-focus.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/markdown/services-focus.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="services-guarantee.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/markdown/services-guarantee.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/app/markdown/services-stockhold.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/services.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -238,7 +233,6 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/products.js" />
         <option value="$PROJECT_DIR$/app/styles/products.scss" />
         <option value="$PROJECT_DIR$/app/styles/carousel.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/markdown/about.md" />
         <option value="$PROJECT_DIR$/app/views/modals.html" />
         <option value="$PROJECT_DIR$/app/markdown/about_norlux.md" />
@@ -253,6 +247,7 @@
         <option value="$PROJECT_DIR$/app/markdown/services-support.md" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
         <option value="$PROJECT_DIR$/app/views/services.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -315,173 +310,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markdown" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -642,12 +471,12 @@
       <workItem from="1485781449932" duration="6172000" />
       <workItem from="1485803564220" duration="5061000" />
       <workItem from="1485853272709" duration="5233000" />
-      <workItem from="1485881155472" duration="3630000" />
+      <workItem from="1485881155472" duration="4313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227066000" />
+    <option name="totallyTimeSpent" value="227749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="216" column="44" lean-forward="true" selection-start-line="216" selection-start-column="44" selection-end-line="216" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/markdown/about.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -993,18 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services-guarantee.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/markdown/services-stockhold.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1061,6 +874,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="40" column="139" lean-forward="false" selection-start-line="40" selection-start-column="139" selection-end-line="40" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services-guarantee.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
           <folding />
         </state>
       </provider>
