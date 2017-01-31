@@ -1,4 +1,4 @@
 ### Support
 * * *
 
-When creating a brand identity, we know you may want to push the boundaries.
+We provide you with a dedicated team that you can contact 24/7 with all your technical questions.

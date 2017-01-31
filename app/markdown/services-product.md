@@ -1,4 +1,4 @@
 ### Product
 * * *
 
-When creating a brand identity, we know you may want to push the boundaries.
+Providing you with the latest innovative products for all of your retail projects.

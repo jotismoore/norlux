@@ -1,4 +1,4 @@
-### Stockhold
+### Stockhold & Delivery
 * * *
 
-When creating a brand identity, we know you may want to push the boundaries.
+Our office and warehouse ideally located in the UK, ensuring your goods are delivered on time, every time.

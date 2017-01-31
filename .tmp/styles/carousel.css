@@ -61,10 +61,28 @@
   font-size: 55px;
 }
 
+.carousel-control .glyphicon.glyphicon-chevron-right {
+  border-right: 3px solid #999999;
+  border-bottom: 3px solid #999999;
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+  margin-top: 40px;
+}
+
 .carousel-control .glyphicon.glyphicon-chevron-right:before {
-  content: "\e258" !important;
+  content: "" !important;
+}
+
+.carousel-control .glyphicon.glyphicon-chevron-left {
+  border-right: 3px solid #999999;
+  border-bottom: 3px solid #999999;
+  width: 30px;
+  height: 30px;
+  transform: rotate(135deg);
+  margin-top: 40px;
 }
 
 .carousel-control .glyphicon.glyphicon-chevron-left:before {
-  content: "\e257" !important;
+  content: "" !important;
 }

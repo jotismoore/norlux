@@ -10,7 +10,7 @@
   vertical-align: top;
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: inherit;
-  height: 330px;
+  height: 300px;
   position: relative;
   padding: 0;
   margin-bottom: 12px;
@@ -33,7 +33,7 @@
 }
 
 .products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child, .productModal .thumbnail .caption p:last-child {
-  bottom: -90px;
+  bottom: -62px;
 }
 
 .products-container .thumbnail img, #searchModal .thumbnail img, .productModal .thumbnail img {

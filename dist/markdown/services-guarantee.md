@@ -1,4 +1,4 @@
 ### Guarantee
 * * *
 
-When creating a brand identity, we know you may want to push the boundaries.
+If part of the design doesn't meet your expectations, we will put it right free of charge.

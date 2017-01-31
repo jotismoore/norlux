@@ -7,9 +7,9 @@
     <div class="container">
       <h2 class="modal-title">{{product.name}}</h2>
       <hr />
-      <div class="model-description">
-        <p ng-bind-html="product.description.toString()|trustAsHtml"></p>
-      </div>
+      <!--<div class="model-description">-->
+        <!--<p ng-bind-html="product.description.toString()|trustAsHtml"></p>-->
+      <!--</div>-->
       <div class="modal-body">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -18,7 +18,7 @@
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 product-info">
               <p>Product Information</p>
               <table>
-                <tr ng-repeat="(key, value) in product" ng-if="value != '' && key != 'description' && key != 'name' && key != 'image' && key != 'pdf' && key != 'active'">
+                <tr ng-repeat="(key, value) in product" ng-if="value != '' && key != 'id' && key != 'name' && key != 'image' && key != 'pdf' && key != 'active'">
                   <td class="text-capitalize product-heading">
                     {{key.replace('_', ' ')}}
                   </td>

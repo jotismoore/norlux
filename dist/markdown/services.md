@@ -1,3 +1,3 @@
-# SERVICES
+# Our Services Offer
 
-## Our expertise has taken us into many different sectors of the lighting industry and as our clients evolve, we continually try to improve our offer. Here’s a little more info about our services and what we think makes us stand out from the rest:
+## In an increasingly competitive market, we know that the price and performance of our products our key to our clients, but it's our service levels that can really help make a difference. We have developed a continually improved service offer built specifically for the retail market and our customers.
