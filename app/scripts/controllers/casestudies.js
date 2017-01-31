@@ -21,11 +21,14 @@ angular.module('norluxAngularApp')
 
       $scope.caseStudiesImages.pop();
 
-      $scope.limit= 16;
+      $scope.limit = 16;
 
       // loadMore function
       $scope.loadMore = function() {
         $scope.limit = $scope.limit + 16;
+        if ($scope.limit >= $scope.caseStudiesImages.length) {
+          $(".case_study_button").hide();
+        }
       };
 
       // $scope.openCaseStudy=function($index){
