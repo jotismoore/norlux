@@ -222,7 +222,8 @@ gulp.task('images', function () {
     .pipe($.imagemin({
       optimizationLevel: 5,
       progressive: true,
-      interlaced: true
+      interlaced: true,
+      cache: false
     }))
     .pipe(gulp.dest(yeoman.dist + '/images'));
 });
