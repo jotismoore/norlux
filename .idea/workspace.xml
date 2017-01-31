@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216fcc41-433d-4ac7-89ec-2de28132c826" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/about.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/animations.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/case_studies.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/contact.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/container.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/defaults.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/fullscreen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/modals.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/navbar-overwrites.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/products.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/services.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/csv/products.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/csv/stores.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
@@ -156,7 +173,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/view-case-studies-modal.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/view-product-modal.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="norlux-angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -182,8 +198,8 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="225" column="18" lean-forward="false" selection-start-line="225" selection-start-column="18" selection-end-line="225" selection-end-column="18" />
+            <state relative-caret-position="72">
+              <caret line="220" column="46" lean-forward="false" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -228,6 +244,7 @@
       <find>data-wow-delay=&quot;0.6s&quot;</find>
       <find>vendor</find>
       <find>css</find>
+      <find>imagemin</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/views</dir>
@@ -340,6 +357,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,12 +571,12 @@
       <workItem from="1485767228585" duration="3000" />
       <workItem from="1485781449932" duration="6172000" />
       <workItem from="1485803564220" duration="5061000" />
-      <workItem from="1485853272709" duration="4197000" />
+      <workItem from="1485853272709" duration="4783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222400000" />
+    <option name="totallyTimeSpent" value="222986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,17 +966,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/products/apto.jpg">
+    <entry file="file://$PROJECT_DIR$/dist/images/products/Apto.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/products/auriga_IP44.jpg">
+    <entry file="file://$PROJECT_DIR$/dist/images/products/Auriga_IP44.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/products/bladeline.jpg">
+    <entry file="file://$PROJECT_DIR$/dist/images/products/Bladeline.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -917,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="225" column="18" lean-forward="false" selection-start-line="225" selection-start-column="18" selection-end-line="225" selection-end-column="18" />
+        <state relative-caret-position="72">
+          <caret line="220" column="46" lean-forward="false" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
           <folding />
         </state>
       </provider>
