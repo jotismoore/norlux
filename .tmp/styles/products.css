@@ -10,13 +10,14 @@
   vertical-align: top;
   border: 5px solid rgba(0, 0, 0, 0.08);
   border-radius: inherit;
-  height: 300px;
+  height: 320px;
   position: relative;
   padding: 0;
   margin-bottom: 12px;
 }
 
 .products-container .thumbnail .caption, #searchModal .thumbnail .caption, .productModal .thumbnail .caption {
+  height: 50%;
   position: relative;
 }
 
@@ -29,15 +30,20 @@
 }
 
 .products-container .thumbnail .caption p:first-child, #searchModal .thumbnail .caption p:first-child, .productModal .thumbnail .caption p:first-child {
-  top: 20px;
+  bottom: 40px;
 }
 
 .products-container .thumbnail .caption p:last-child, #searchModal .thumbnail .caption p:last-child, .productModal .thumbnail .caption p:last-child {
-  bottom: -62px;
+  bottom: 10px;
 }
 
-.products-container .thumbnail img, #searchModal .thumbnail img, .productModal .thumbnail img {
+.products-container .thumbnail .product-image, #searchModal .thumbnail .product-image, .productModal .thumbnail .product-image {
+  height: 50%;
+}
+
+.products-container .thumbnail .product-image img, #searchModal .thumbnail .product-image img, .productModal .thumbnail .product-image img {
   width: 100%;
+  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -47,12 +53,11 @@
 }
 
 .products-container p a.categories, #searchModal p a.categories, .productModal p a.categories {
-  color: #000000;
-  opacity: 0.6;
+  color: #888888;
   padding-right: 10px;
   padding-left: 10px;
   cursor: pointer;
-  border-left: 2px solid rgba(0, 0, 0, 0.6);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
   /* for Safari */
   background-clip: padding-box;
   /* for IE9+, Firefox 4+, Opera, Chrome */
@@ -64,7 +69,6 @@
 
 .products-container p a.categories.active, #searchModal p a.categories.active, .productModal p a.categories.active {
   color: #009fe3;
-  opacity: 1;
 }
 
 .products-container p a.categories:first-child, #searchModal p a.categories:first-child, .productModal p a.categories:first-child {
@@ -179,5 +183,8 @@
   }
   .carousel-control {
     display: none !important;
+  }
+  .products-container .thumbnail, #searchModal .thumbnail, .productModal .thumbnail {
+    height: 350px;
   }
 }
