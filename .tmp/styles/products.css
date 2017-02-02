@@ -37,8 +37,7 @@
 }
 
 .products-container .thumbnail img, #searchModal .thumbnail img, .productModal .thumbnail img {
-  width: auto;
-  height: 200px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -65,6 +64,7 @@
 
 .products-container p a.categories.active, #searchModal p a.categories.active, .productModal p a.categories.active {
   color: #009fe3;
+  opacity: 1;
 }
 
 .products-container p a.categories:first-child, #searchModal p a.categories:first-child, .productModal p a.categories:first-child {

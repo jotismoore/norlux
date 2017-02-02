@@ -29,8 +29,9 @@
                 <span class="name">{{store.name}}</span><br>
                 <span class="email">E-mail: {{store.email}}</span><br>
                 <span class="phone">Phone: {{store.phone}}</span><br>
-                {{store.address_line_1}}<br>
-                {{store.address_line_2}}<br>
+                {{store.address_line_1}}<br ng-if="store.address_line_1 !== ''">
+                {{store.address_line_2}}<br ng-if="store.address_line_2 !== ''">
+                {{store.address_line_3}}<br ng-if="store.address_line_3 !== ''">
                 {{store.city}} {{store.postcode}}<br>
                 {{store.region}}
               </div>
@@ -45,7 +46,7 @@
   <a href="something" class="social facebook">facebook</a>
   <a href="something" class="social twitter">twitter</a>
   <a href="something" class="social instagram">instagram</a>
-  <p class="legal">Norlux UK <span>|</span> Phone: +44 (0)207 XXX XXXX <span>|</span> Email: light@norlux.uk</p>
+  <p class="legal">Norlux UK <span>|</span> Phone: +44 (0) 203 794 6186 <span>|</span> Email: info@norlux.uk</p>
 </div>
 
 
