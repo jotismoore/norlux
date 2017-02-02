@@ -14,10 +14,9 @@ angular.module('norluxAngularApp')
     });
     $http.get("markdown/case_study_images.md").then(function(res){
       var images = JSON.stringify(res.data).replace(/\\n/g, ",").replace(/"/g, '').split(',');
-      $scope.caseStudiesImages = Object.values(images
-        .map(function(i, val){
-          return ({'image' : i})
-        }));
+      $scope.caseStudiesImages = images.map(function (i, val) {
+        return ({'image': i})
+      });
 
       $scope.caseStudiesImages.pop();
 

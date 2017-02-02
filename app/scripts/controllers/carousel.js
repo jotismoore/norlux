@@ -14,10 +14,9 @@ angular.module('norluxAngularApp')
     });
     $http.get("markdown/main_carousel_images.md").then(function(res) {
       var images = JSON.stringify(res.data).replace(/\\n/g, ",").replace(/"/g, '').split(',');
-      $scope.mainCarouselImages = Object.values(images
-        .map(function (i, val) {
-          return ({'image': i})
-        }));
+      $scope.mainCarouselImages = images.map(function (i, val) {
+        return ({'image': i})
+      });
       $scope.mainCarouselImages.pop();
     });
   });
