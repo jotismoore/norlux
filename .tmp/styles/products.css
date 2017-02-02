@@ -42,8 +42,10 @@
 }
 
 .products-container .thumbnail .product-image img, #searchModal .thumbnail .product-image img, .productModal .thumbnail .product-image img {
+  height: 100%;
   width: 100%;
-  margin-top: 20px;
+  object-fit: contain;
+  margin: 20px auto;
   cursor: pointer;
 }
 
@@ -183,8 +185,5 @@
   }
   .carousel-control {
     display: none !important;
-  }
-  .products-container .thumbnail, #searchModal .thumbnail, .productModal .thumbnail {
-    height: 350px;
   }
 }

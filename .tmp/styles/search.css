@@ -22,6 +22,6 @@
 
 @media (max-width: 767px) {
   #searchModal.fullscreen input {
-    font-size: 80px !important;
+    font-size: 60px !important;
   }
 }

@@ -36,8 +36,10 @@
     .product-image {
       height: 50%;
       img {
+        height: 100%;
         width: 100%;
-        margin-top: 20px;
+        object-fit: contain;
+        margin: 20px auto;
         cursor: pointer;
       }
     }
@@ -166,8 +168,14 @@
     display: none !important;
   }
   .products-container, #searchModal, .productModal {
-    .thumbnail {
-      height: 350px;
-    }
+    //.thumbnail {
+    //  height: 350px;
+    //  .product-image {
+    //    height: 50%;
+    //  }
+    //  .caption {
+    //    height: 50%;
+    //  }
+    //}
   }
 }
