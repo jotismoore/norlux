@@ -1,9 +1,9 @@
 <div class="loader"></div>
-<carousel interval="0">
+<carousel interval="0" no-wrap="true" on-carousel-change="onSlideChanged(nextSlide, direction, nextIndex)">
   <button type="button" class="noSelect close" ng-click="closeProduct()">
     <span class="crisscross"></span>
   </button>
-  <slide ng-repeat="product in products track by product.id" active="product.active">
+  <slide ng-repeat="product in categoryProducts track by product.id" active="product.active">
     <div class="container">
       <h2 class="modal-title">{{product.name}}</h2>
       <hr />
@@ -29,7 +29,7 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <button class="norlux-button top">Enquire</button>
+            <button class="norlux-button top" ng-click="productEnquiry(product)">Enquire</button>
           </div>
         </div>
         <div class="row">

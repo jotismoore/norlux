@@ -5,11 +5,11 @@
         <button type="button" class="noSelect close" data-dismiss="modal" aria-hidden="true">
           <span class="crisscross"></span>
         </button>
-        <ul style="list-style-type:none;">
+        <ul style="list-style-type:none;margin-top:60px;">
           <li><a scroll-on-click href="#about" class="big">About Norlux UK</a></li>
           <li><a scroll-on-click href="#services" class="big">Services</a></li>
           <li><a scroll-on-click href="#products" class="big">Products</a></li>
-          <li><a scroll-on-click href="#case_studies" class="big">Case Studies</a></li>
+          <li><a scroll-on-click href="#case_studies" class="big">Gallery</a></li>
           <li><a scroll-on-click href="#contact" class="big">Contact</a></li>
           <li><a href="#blog" class="big">Blog</a></li>
         </ul>
@@ -40,11 +40,11 @@
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in (search ? (products | filter:search | unique: 'name') : []) track by product.id">
               <div class="thumbnail">
                 <div class="product-image">
-                  <img ng-click="openProduct(product.id)" ng-src="images/products/{{product.image}}" alt="{{product.name}}">
+                  <img ng-click="openProduct(products, product)" ng-src="images/products/{{product.image}}" alt="{{product.name}}">
                 </div>
                 <div class="caption text-center">
                   <p>{{product.name}}</p>
-                  <p class="link" ng-click="openProduct(product.id)">View</p>
+                  <p class="link" ng-click="openProduct(products, product)">View</p>
                 </div>
               </div>
             </div>

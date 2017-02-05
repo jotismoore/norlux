@@ -1,19 +1,22 @@
 <h1>PRODUCTS</h1>
 
 <div class="row">
-  <p><a class="categories" ng-class="{'active': productFilter == category}" ng-repeat="category in categories" ng-click="filterCategory(category)">{{category}}</a></p>
+  <p><a class="categories" ng-class="{'active': productFilter == category.category}" ng-repeat="category in categories" ng-click="filterCategory(category.category)">{{category.category}}</a></p>
 </div>
 
 <div class="row text-left">
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in products | filter: productFilter track by product.id">
-    <div class="thumbnail">
-      <div class="product-image">
-        <img ng-click="openProduct(product.id)" ng-src="images/products/{{product.image}}?v=20170131" alt="{{product.name}}">
-      </div>
-      <div class="caption text-center">
-        <p>{{product.name}}</p>
-        <p class="link" ng-click="openProduct(product.id)">View</p>
+  <div ng-repeat="category in categories">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12" ng-repeat="product in category.products | filter: productFilter track by product.id">
+      <div class="thumbnail">
+        <div class="product-image">
+          <img ng-click="openProduct(category, product)" ng-src="images/products/{{product.image}}?v=20170131" alt="{{product.name}}">
+        </div>
+        <div class="caption text-center">
+          <p>{{product.name}}</p>
+          <p class="link" ng-click="openProduct(category, product)">View</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+

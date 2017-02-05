@@ -30,9 +30,9 @@ angular.module('norluxAngularApp')
       }
     });
 
-    $scope.ordering = function(arr) {
-      return $filter('min')
-      ($filter('map')(arr, 'country'));
-    };
+    // $scope.ordering = function(arr) {
+      // return $filter('min')
+      // ($filter('map')(arr, 'country'));
+    // };
 
   });

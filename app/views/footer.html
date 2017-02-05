@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
         <div id="accordion" class="panel-group">
-          <div class="panel panel-default" ng-repeat="storesPerCountry in storesToFilter() | filter:filterStores | orderBy:ordering">
+          <div class="panel panel-default" ng-repeat="storesPerCountry in storesToFilter() | filter:filterStores">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-parent="#accordion" class="collapsed" data-toggle="collapse" data-target="#{{storesPerCountry.country}}">
@@ -27,7 +27,7 @@
             <div id="{{storesPerCountry.country}}" class="panel-collapse collapse">
               <div class="panel-body" ng-repeat="store in stores | filter:{country: storesPerCountry.country}">
                 <span class="name">{{store.name}}</span><br>
-                <span class="email">E-mail: {{store.email}}</span><br>
+                <span class="email">E-mail: <a href="mailto:{{store.email}}">{{store.email}}</a></span><br>
                 <span class="phone">Phone: {{store.phone}}</span><br>
                 {{store.address_line_1}}<br ng-if="store.address_line_1 !== ''">
                 {{store.address_line_2}}<br ng-if="store.address_line_2 !== ''">
@@ -43,10 +43,10 @@
   </div>
 </div>
 <div class="container">
-  <a href="https://www.instagram.com/norluxuk/" class="social facebook">facebook</a>
-  <a href="https://twitter.com/norluxuk" class="social twitter">twitter</a>
-  <a href="https://uk.pinterest.com/NorluxUK/" class="social instagram">instagram</a>
-  <p class="legal">Norlux UK <span>|</span> Phone: +44 (0) 203 794 6186 <span>|</span> Email: info@norlux.uk</p>
+  <a href="https://www.instagram.com/norluxuk/" target="_blank" class="social facebook">facebook</a>
+  <a href="https://twitter.com/norluxuk" target="_blank" class="social twitter">twitter</a>
+  <a href="https://uk.pinterest.com/NorluxUK/" target="_blank" class="social instagram">instagram</a>
+  <p class="legal">Norlux UK <span>|</span> Phone: +44 (0) 203 794 6186 <span>|</span> Email: <a href="mailto:info@norlux.uk">info@norlux.uk</a></p>
 </div>
 
 

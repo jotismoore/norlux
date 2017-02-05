@@ -17,7 +17,7 @@
 }
 
 .products-container .thumbnail .caption, #searchModal .thumbnail .caption, .productModal .thumbnail .caption {
-  height: 50%;
+  height: 30%;
   position: relative;
 }
 
@@ -38,14 +38,14 @@
 }
 
 .products-container .thumbnail .product-image, #searchModal .thumbnail .product-image, .productModal .thumbnail .product-image {
-  height: 50%;
+  height: 70%;
 }
 
 .products-container .thumbnail .product-image img, #searchModal .thumbnail .product-image img, .productModal .thumbnail .product-image img {
   height: 100%;
   width: 100%;
   object-fit: contain;
-  margin: 20px auto;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -119,13 +119,13 @@
 .productModal hr {
   width: 30%;
   margin-top: 0;
-  border-top: 3px solid #000000;
+  border-top: 3px solid #009fe3;
 }
 
 .productModal h2 {
   font-family: 'interstatebold', Arial, Serif;
   text-transform: uppercase;
-  color: black;
+  color: #009fe3;
   opacity: 1;
   padding: 0 auto 15px;
 }
