@@ -115,7 +115,7 @@ angular.module('norluxAngularApp')
 
     });
 
-    $scope.productFilter = 'LED Ceiling Mounted';
+    $scope.productFilter = 'LED Spotlights';
 
     $scope.filterCategory = function(category) {
       if ($scope.productFilter != category) {
