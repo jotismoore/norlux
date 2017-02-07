@@ -2,7 +2,7 @@
 <h2>
   Thank you for taking the time to visit our site and learn more about who we are. We hope this has been of some interest and we would be delighted to demonstrate what Norlux UK can offer you.
 </h2>
-<form id="contact-form" method="post" action="contact.php" role="form">
+<form id="contact-form" method="post" action="php/mail.php" role="form">
   <!--<input type="hidden" name="_next" value="/" />-->
   <div class="messages"></div>
 
@@ -46,4 +46,33 @@
     </div>
   </div>
 </form>
+
+<script>
+  $(function () {
+
+    $('#contact-form').on('submit', function (e) {
+      if (!e.isDefaultPrevented()) {
+        var url = "php/mail.php";
+
+        $.ajax({
+          type: "POST",
+          url: url,
+          data: $(this).serialize(),
+          success: function (data)
+          {
+            var messageAlert = 'alert-' + data.type;
+            var messageText = data.message;
+
+            var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable">' + messageText + '</div>';
+            if (messageAlert && messageText) {
+              $('#contact-form').find('.messages').html(alertBox);
+              $('#contact-form')[0].reset();
+            }
+          }
+        });
+        return false;
+      }
+    })
+  });
+</script>
 

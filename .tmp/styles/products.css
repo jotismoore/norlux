@@ -155,6 +155,7 @@
 
 .productModal .product-info .product-heading {
   font-family: 'interstatebold', Arial, Serif;
+  width: 25%;
 }
 
 .productModal .product-info .product-detail {

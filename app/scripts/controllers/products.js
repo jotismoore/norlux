@@ -107,6 +107,7 @@ angular.module('norluxAngularApp')
         $http.get("markdown/product-enquiry-message.md").then(function(res) {
           var message = res.data.replace('{}', product.product).toString();
           $scope.modalInstance.close();
+          $('#searchModal').modal('hide');
           $scope.closeProduct();
           $('#contact-form').find('input[name="name"]').focus();
           $('#contact-form').find('textarea[name="message"]').val(message);

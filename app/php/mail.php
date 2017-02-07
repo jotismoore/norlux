@@ -1,18 +1,18 @@
 <?php
 
 // configure
-$from = 'Demo contact form <demo@domain.com>';
-$sendTo = 'Demo contact form <demo@domain.com>';
-$subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$from = 'info@norlux.uk';
+$sendTo = 'info@norlux.uk';
+$subject = 'Enquiry on Norlux UK';
+$fields = array('name' => 'Name', 'company' => 'Company', 'email' => 'Email', 'phone' => 'Phone', 'message' => 'Message'); // array variable name => Text to appear in the email
+$okMessage = 'Your message has successfully sent. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have new enquiry on Norlux UK\n\n";
 
     foreach ($_POST as $key => $value) {
 
