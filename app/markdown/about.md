@@ -1,3 +1,3 @@
 # What we do
 
-## We have a real passion and a genuine understanding of the retail sector and working in partnership with all of our clients, we help bring your stores to life. Our innovative, flexible and fast approach means that we deliver your lighting solution tailored specifically for your environment and hassle free.
+## We have a real passion and a genuine understanding of the retail sector. Working in partnership with our clients, we bring your stores to life. Our innovative, flexible and hassle free approach ensures that we deliver your bespoke lighting solution on time, on budget - every time.

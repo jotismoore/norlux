@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216fcc41-433d-4ac7-89ec-2de28132c826" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/php/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/csv/products.csv" afterPath="$PROJECT_DIR$/app/csv/products.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/products.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/view-product-modal.html" afterPath="$PROJECT_DIR$/app/views/view-product-modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/about.md" afterPath="$PROJECT_DIR$/app/markdown/about.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/about_norlux.md" afterPath="$PROJECT_DIR$/app/markdown/about_norlux.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-design.md" afterPath="$PROJECT_DIR$/app/markdown/services-design.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-focus.md" afterPath="$PROJECT_DIR$/app/markdown/services-focus.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-guarantee.md" afterPath="$PROJECT_DIR$/app/markdown/services-guarantee.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-support.md" afterPath="$PROJECT_DIR$/app/markdown/services-support.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services-warranty.md" afterPath="$PROJECT_DIR$/app/markdown/services-warranty.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/markdown/services.md" afterPath="$PROJECT_DIR$/app/markdown/services.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact.html" afterPath="$PROJECT_DIR$/app/views/contact.html" />
     </list>
     <ignored path="norlux-angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,83 +37,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="products.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/products.scss">
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/php/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="116" column="18" lean-forward="false" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+            <state relative-caret-position="705">
+              <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/services.html">
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/markdown/about.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="149" lean-forward="false" selection-start-line="42" selection-start-column="149" selection-end-line="42" selection-end-column="149" />
+            <state relative-caret-position="30">
+              <caret line="2" column="284" lean-forward="false" selection-start-line="2" selection-start-column="284" selection-end-line="2" selection-end-column="284" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/products.js">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view-product-modal.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/view-product-modal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modals.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/modals.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="104" column="17" lean-forward="false" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stores.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/stores.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -114,17 +71,67 @@
         <entry file="file://$PROJECT_DIR$/app/markdown/services.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="303" lean-forward="false" selection-start-line="2" selection-start-column="303" selection-end-line="2" selection-end-column="303" />
+              <caret line="2" column="156" lean-forward="false" selection-start-line="2" selection-start-column="156" selection-end-line="2" selection-end-column="156" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="case_studies.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/markdown/case_studies.md">
+      <file leaf-file-name="services-design.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/markdown/services-design.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <state relative-caret-position="45">
+              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services-focus.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/markdown/services-focus.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="129" lean-forward="false" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services-guarantee.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/markdown/services-guarantee.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services-warranty.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/markdown/services-warranty.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services-support.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/markdown/services-support.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_norlux.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/markdown/about_norlux.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="317" lean-forward="false" selection-start-line="2" selection-start-column="317" selection-end-line="2" selection-end-column="317" />
               <folding />
             </state>
           </provider>
@@ -185,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/defaults.scss" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/styles/about.scss" />
         <option value="$PROJECT_DIR$/app/styles/container.scss" />
@@ -197,23 +203,14 @@
         <option value="$PROJECT_DIR$/app/styles/services.scss" />
         <option value="$PROJECT_DIR$/app/styles/case_studies.scss" />
         <option value="$PROJECT_DIR$/app/styles/fullscreen.scss" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/mainDirective.js" />
         <option value="$PROJECT_DIR$/app/views/carousel.html" />
         <option value="$PROJECT_DIR$/app/views/view-case-studies-modal.html" />
         <option value="$PROJECT_DIR$/app/styles/carousel.scss" />
-        <option value="$PROJECT_DIR$/app/markdown/about.md" />
-        <option value="$PROJECT_DIR$/app/markdown/about_norlux.md" />
         <option value="$PROJECT_DIR$/app/markdown/services-product.md" />
-        <option value="$PROJECT_DIR$/app/markdown/services-design.md" />
         <option value="$PROJECT_DIR$/app/markdown/services-concept.md" />
-        <option value="$PROJECT_DIR$/app/markdown/services-focus.md" />
-        <option value="$PROJECT_DIR$/app/markdown/services-guarantee.md" />
         <option value="$PROJECT_DIR$/app/markdown/services-stockhold.md" />
-        <option value="$PROJECT_DIR$/app/markdown/services-warranty.md" />
-        <option value="$PROJECT_DIR$/app/markdown/services-support.md" />
-        <option value="$PROJECT_DIR$/app/views/contact.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/views/case_studies.html" />
         <option value="$PROJECT_DIR$/app/scripts/filters/trustAsHtmlFilter.js" />
@@ -228,7 +225,6 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/onCarouselChange.js" />
         <option value="$PROJECT_DIR$/app/styles/products.scss" />
-        <option value="$PROJECT_DIR$/app/markdown/services.md" />
         <option value="$PROJECT_DIR$/app/markdown/case_studies.md" />
         <option value="$PROJECT_DIR$/app/views/modals.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/stores.js" />
@@ -236,6 +232,17 @@
         <option value="$PROJECT_DIR$/app/views/footer.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/products.js" />
         <option value="$PROJECT_DIR$/app/views/view-product-modal.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/php/contact.php" />
+        <option value="$PROJECT_DIR$/app/views/contact.html" />
+        <option value="$PROJECT_DIR$/app/markdown/about.md" />
+        <option value="$PROJECT_DIR$/app/markdown/services.md" />
+        <option value="$PROJECT_DIR$/app/markdown/services-design.md" />
+        <option value="$PROJECT_DIR$/app/markdown/services-focus.md" />
+        <option value="$PROJECT_DIR$/app/markdown/services-guarantee.md" />
+        <option value="$PROJECT_DIR$/app/markdown/services-warranty.md" />
+        <option value="$PROJECT_DIR$/app/markdown/services-support.md" />
+        <option value="$PROJECT_DIR$/app/markdown/about_norlux.md" />
       </list>
     </option>
   </component>
@@ -276,6 +283,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,6 +293,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="norlux-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case_studies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,69 +472,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="norlux-angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,7 +496,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -664,12 +663,14 @@
       <workItem from="1486130799405" duration="609000" />
       <workItem from="1486133073148" duration="306000" />
       <workItem from="1486146785233" duration="6675000" />
-      <workItem from="1486287846993" duration="11592000" />
+      <workItem from="1486287846993" duration="12428000" />
+      <workItem from="1486379146380" duration="3000" />
+      <workItem from="1486491184107" duration="1163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256506000" />
+    <option name="totallyTimeSpent" value="258508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,26 +683,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42071882" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42001408" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4747191" sideWeight="0.47568712" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26123595" sideWeight="0.5243129" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26123595" sideWeight="0.5243129" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32563257" sideWeight="0.49597523" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,18 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/products/apto.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/images/products/auriga_IP44.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -753,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/fullscreen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
@@ -771,13 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/about_norlux.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="278" lean-forward="false" selection-start-line="2" selection-start-column="278" selection-end-line="2" selection-end-column="278" />
         </state>
       </provider>
     </entry>
@@ -795,45 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services-focus.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/markdown/services-stockhold.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services-warranty.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services-design.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="192" lean-forward="false" selection-start-line="2" selection-start-column="192" selection-end-line="2" selection-end-column="192" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services-guarantee.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -891,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,15 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services-support.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,15 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/about.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="231" column="10" lean-forward="true" selection-start-line="231" selection-start-column="10" selection-end-line="231" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,39 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="454" column="56" lean-forward="false" selection-start-line="454" selection-start-column="45" selection-end-line="454" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1484845991000" expanded="true" signature="18041:18419" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="18055:18224" ph="..." />
-            <marker date="1484845991000" expanded="false" signature="18114:18126" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="18166:18209" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="18238:18403" ph="..." />
-            <marker date="1484845991000" expanded="false" signature="18297:18309" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="18349:18388" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="18481:18525" ph="{...}" />
-            <marker date="1484845991000" expanded="true" signature="19541:19817" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="19618:19803" ph="..." />
-            <marker date="1484845991000" expanded="false" signature="19663:19675" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="19713:19790" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="20023:20052" ph="{...}" />
-            <marker date="1484845991000" expanded="true" signature="20115:20159" ph="{...}" />
-            <marker date="1484845991000" expanded="true" signature="132439:132564" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="132604:132765" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="132795:132960" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="134217:134969" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="134288:134348" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="134435:134505" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="134533:134958" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="134611:134759" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="134801:134942" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="135041:135362" ph="{...}" />
-            <marker date="1484845991000" expanded="true" signature="135064:135214" ph="[...]" />
-            <marker date="1484845991000" expanded="true" signature="135251:135355" ph="{...}" />
-            <marker date="1484845991000" expanded="true" signature="135283:135345" ph="{...}" />
-            <marker date="1484845991000" expanded="true" signature="135704:135961" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="135716:135822" ph="..." />
-            <marker date="1484845991000" expanded="true" signature="135834:135947" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,12 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="63" />
-          <folding>
-            <marker date="1486299468000" expanded="true" signature="101:693" ph="{...}" />
-            <marker date="1486299468000" expanded="true" signature="114:688" ph="{&quot;require&quot;: 'carousel'...}" />
-            <marker date="1486299468000" expanded="true" signature="202:682" ph="{...}" />
-            <marker date="1486299468000" expanded="true" signature="372:673" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="116" column="18" lean-forward="false" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,14 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="149" lean-forward="false" selection-start-line="42" selection-start-column="149" selection-end-line="42" selection-end-column="149" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/markdown/services.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="303" lean-forward="false" selection-start-line="2" selection-start-column="303" selection-end-line="2" selection-end-column="303" />
           <folding />
         </state>
       </provider>
@@ -1078,7 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/stores.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="495">
           <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="34" selection-end-column="42" />
           <folding />
         </state>
@@ -1094,17 +959,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="104" column="17" lean-forward="false" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="435">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
@@ -1112,7 +969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="1755">
           <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
           <folding />
         </state>
@@ -1120,8 +977,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/view-product-modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="630">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="113" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/case_studies/cs_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/php/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/about.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="284" lean-forward="false" selection-start-line="2" selection-start-column="284" selection-end-line="2" selection-end-column="284" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="156" lean-forward="false" selection-start-line="2" selection-start-column="156" selection-end-line="2" selection-end-column="156" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services-design.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services-focus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="129" lean-forward="false" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services-guarantee.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services-warranty.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/services-support.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/markdown/about_norlux.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="317" lean-forward="false" selection-start-line="2" selection-start-column="317" selection-end-line="2" selection-end-column="317" />
           <folding />
         </state>
       </provider>
