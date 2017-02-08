@@ -8,7 +8,7 @@
  * Controller of the norluxAngularApp
  */
 angular.module('norluxAngularApp')
-  .controller('ProductCtrl', function ($scope, Products, $modal, $http) {
+  .controller('ProductCtrl', function ($scope, Products, $modal, $http, $timeout) {
     $scope.$on('$locationChangeStart', function(ev) {
       ev.preventDefault();
     });
@@ -109,8 +109,11 @@ angular.module('norluxAngularApp')
           $scope.modalInstance.close();
           $('#searchModal').modal('hide');
           $scope.closeProduct();
-          $('#contact-form').find('input[name="name"]').focus();
           $('#contact-form').find('textarea[name="message"]').val(message);
+          $timeout(function () {
+            $("body, html").animate({scrollTop: ($('#contact-form').offset().top) - 77}, 'slow');
+            $('#contact-form').find('input[name="name"]').focus();
+          }, 1);
         });
       };
 

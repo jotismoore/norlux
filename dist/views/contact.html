@@ -67,6 +67,11 @@
             if (messageAlert && messageText) {
               $('#contact-form').find('.messages').html(alertBox);
               $('#contact-form')[0].reset();
+              window.setTimeout(function() {
+                $(".alert").fadeTo(500, 0).slideUp(500, function(){
+                  $(this).remove();
+                });
+              }, 4000);
             }
           }
         });
