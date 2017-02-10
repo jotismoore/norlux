@@ -1,7 +1,5 @@
-Dear Norlux UK,
+Hi Norlux UK,
 
-I'd like to enquire about the {} light fittings,
-
-please forward details,
+Please can you send me more information on your {}.
 
 Thank you

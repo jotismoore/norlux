@@ -3,27 +3,27 @@
 // configure
 $from = 'info@norlux.uk';
 $sendTo = 'info@norlux.uk';
-$subject = 'Enquiry on Norlux UK';
+$subject = 'Enquiry from Norlux UK';
 $fields = array('name' => 'Name', 'company' => 'Company', 'email' => 'Email', 'phone' => 'Phone', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Your message has successfully sent. Thank you, I will get back to you soon!';
+$okMessage = 'Your message has successfully sent. Thank you!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
 
 try
 {
-    $emailText = "You have new enquiry on Norlux UK\n\n";
+    $emailText = nl2br("You have new enquiry from Norlux UK:\n\n");
 
     foreach ($_POST as $key => $value) {
 
         if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
+            $emailText .= nl2br("$fields[$key]: $value\n\n");
         }
     }
 
     $headers = array('Content-Type: text/html; charset="UTF-8";',
         'From: ' . $from,
-        'Reply-To: ' . $from,
+        'Reply-To: ' . $_POST['email'],
         'Return-Path: ' . $from,
     );
 

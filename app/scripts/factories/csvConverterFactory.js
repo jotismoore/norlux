@@ -30,6 +30,15 @@ angular.module('norluxAngularApp')
     return Products;
   }]);
 
+// angular.module('norluxAngularApp')
+//   .factory('Products', ['$http', function($http){
+//     var Products = $http.get("php/products.php")
+//       .then(function(data){
+//         return data;
+//       });
+//     return jsonDataArray(Products);
+//   }]);
+
 angular.module('norluxAngularApp')
   .factory('Stores', ['$http', function($http){
     var Url   = "csv/stores.csv";
